@@ -1,38 +1,27 @@
-import {HomeRouter} from '@interfaces';
+import { HomeRouter } from "@interfaces";
 import {
   createStackNavigator,
   StackNavigationOptions,
-} from '@react-navigation/stack';
-import {HomeScreen} from '@screens';
-import * as React from 'react';
-import {useTranslation} from 'react-i18next';
+} from "@react-navigation/stack";
+import { HomeScreen } from "@screens";
+import * as React from "react";
+import { useTranslation } from "react-i18next";
 
 const HomeStack = createStackNavigator<HomeRouter>();
 
 export default () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   const generateScreenOptions = React.useCallback(
-    ({navigation}): StackNavigationOptions => ({
-      // headerTitle: t('navigation:home:homeHeaderTitle'),
-      // headerRight: () => (
-      //   <Icon
-      //     name="magnify"
-      //     size={24}
-      //     color={Colors.black}
-      //     onPress={() => {
-      //       navigation.navigate('SEARCH_SCREEN', {});
-      //     }}
-      //   />
-      // ),
+    ({}): StackNavigationOptions => ({
       headerRightContainerStyle: {
         paddingHorizontal: 8,
       },
-      headerTitleAlign: 'center',
+      headerTitleAlign: "center",
       headerTitleStyle: {
-        fontFamily: 'Cairo-SemiBold',
+        fontFamily: "Cairo-SemiBold",
       },
     }),
-    [],
+    []
   );
 
   return (
