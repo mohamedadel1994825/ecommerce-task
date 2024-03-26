@@ -1,0 +1,155 @@
+{
+  "components": {
+    "productCard": {
+      "removeFromWishList": "{{name}} istek listesinden kaldırılmış ",
+      "addedToWishList": "{{name}} istek listesinden eklendi "
+    },
+    "notifications": {"title": "Bu teklif onay ", "buttonText": "Bu teklif. "}
+  },
+  "common": {"emptyList": "{{listName}} üzgünüm ürünleri içermez"},
+  "navigation": {
+    "account": {
+      "accountHeaderTitle": "Hesap",
+      "wishListHeaderTitle": "İstek Listesi ",
+      "orderListHeaderTitle": "Sipariş Listesi",
+      "orderHeaderTitle": "Sipariş",
+      "contactUsHeaderTitle": "Bize Ulaşın ",
+      "editAccountHeaderTitle": "Hesabı Düzenle"
+    },
+    "cart": {"cartHeaderTitle": "Sepeti"},
+    "categories": {"categoriesHeaderTitle": "Kategori"},
+    "brands": {"headerTitle": "Markalar"},
+    "Brands": {"headerTitle": "Markalar"},
+    "deals": {"headerTitle": "Fiyatları"},
+    "Deals": {"headerTitle": "Fiyatları"},
+    "home": {"homeHeaderTitle": "Ev"},
+    "root": {"registerHeaderTitle": "Kayıt", "loginHeaderTitle": "Giriş"}
+  },
+  "screens": {
+    "account": {
+      "account": "Hesap",
+      "settings": "Ayarları",
+      "wishList": "İstek Listesi ",
+      "orderList": "Sipariş Listesi",
+      "loginOrRegister": "Giriş / Kayıt",
+      "contactUs": "Bize Ulaşın ",
+      "changeCurrency": "Para Birimi Değiştir",
+      "changeLang": "Dili Değiştir",
+      "selectBransh": "Seçmek Şube",
+      "logout": "Çıkış"
+    },
+    "cart": {"emptyList": "Üzgünüm sepetiniz boş ", "checkOut": "Check Out"},
+    "auth": {
+      "emailLabel": "E-posta",
+      "usernameLabel": "E-posta / Telefon numarası",
+      "passwordLabel": "Şifre",
+      "login": "Giriş",
+      "register": "Kayıt",
+      "fieldPlaceholder": "Lütfen {{field}}girin ",
+      "fieldNotValid": "{{field}} geçersiz ",
+      "fieldRequired": "{{field}} Gereklidir ",
+      "forgotPassword":"Parolanızı mı unuttunuz ?",
+      "securityCodeLabel":"Güvenlik Kodu",
+      "newPAsswordLabel":"Yeni Şifre",
+      "confirmPasswordLabel":"Şifreyi Onayla",
+      "changePasswordText":"Şifre değiştir"
+
+    },
+    "login": {
+      "dontHaveAcc": "Senin Hesabın yok mu? ",
+      "error": "E-posta / Şifre yanlış "
+    },
+    "product": {
+      "description": "Açıklama",
+      "relatedProducts": "İlgili Ürünler",
+      "attributes": "Öznitelikleri",
+      "quantity": "Miktar",
+      "submit": "Gönder",
+      "addToCart": "Sepete Ekle ",
+      "productAddedToCart": "{{name}} sepete eklendi "
+    },
+    "register": {
+      "firstNameLabel": "İlk Adı",
+      "lastNameLabel": "Soyadı",
+      "phoneLabel": "Telefon",
+      "alreadyHaveAccount": "Zaten bir hesabınız var mı? "
+    },
+    "search": {"appBar": "Arama", "placeholder": "Arama..."}
+  },
+  "_navigators": {
+    "tabsTitles": {
+      "home": "Ev",
+      "categories": "Kategori",
+      "deals": "Fiyatları",
+      "account": "Hesap",
+      "cart": "Sepeti"
+    }
+  },
+  "_screens": {
+    "account": {
+      "welcome": "{{WelcomeText}}Hoşgeldiniz ",
+      "toName": "{adı}}için {",
+      "signIn": "Oturum Aç ",
+      "signUp": "Kaydol",
+      "settings": "AYARLARI",
+      "country": "Ülke",
+      "lang": "Dil",
+      "switchTo": "Arapça",
+      "reachToUs": "BİZE ULAŞMAK ",
+      "callUs": "BİZİ ARAYIN ",
+      "orders": "Emir",
+      "returns": "Döner",
+      "wishList": "İstek",
+      "logout": "Oturum "
+    },
+    "cart": {"checkOut": "Check Out"},
+    "home": {"searchPlaceholder": "Ne arıyorsunuz?"},
+    "product": {
+      "backToTop": "Başa dön ",
+      "qty": "MİKTAR",
+      "quantity": "Miktar",
+      "addToCart": "SEPETE EKLE ",
+      "overview": "Genel bakış",
+      "description": "Açıklama",
+      "specifications": "Özellikleri",
+      "noOption": "Bazı seçenekler gibi görünüyor bu Ürün şu anda mevcut değil "
+    },
+    "login": {
+      "textHeader": "O! Tekrar Hoşgeldin ",
+      "dontHaveAccount": "Bir hesabınız yok? ",
+      "navigateTo": "Kaydol",
+      "button": "Oturum Aç ",
+      "forgotPassword": "Şifreni mi unuttun?"
+    },
+    "productGrid": {"filter": "FİLTRE", "sort": "SIRALAMA"},
+    "productGridFilter": {
+      "price": "Fiyat",
+      "category": "Kategori",
+      "brands": "Markalar",
+      "reset": "SIFIRLA",
+      "apply": "Filtreleri Uygula "
+    },
+    "register": {
+      "createStoreAcc": "{Storename}} oluştur {hesap",
+      "firstNameLabel": "İlk Adı",
+      "lastNameLabel": "Soyadı",
+      "button": "Kaydol",
+      "alreadyHaveAccount": "Zaten bir hesabınız var mı? ",
+      "navigateTo": "Oturum Aç "
+    },
+    "selectBrands": {"apply": "Marka Uygula "},
+    "selectCategory": {"apply": "Kategori Uygula "},
+    "selectPrice": {"min": "Min", "max": "Max"}
+  },
+  "_components": {
+    "featuredProducts": {"shopNow": "ŞİMDİ DÜKKANI "},
+    "cartProductCard": {"removeButton": "Kaldır"},
+    "productQuantity": {"qty": "Miktar"},
+    "table": {"title": "Öznitelikleri"}
+  },
+  "_common": {
+    "fieldPlaceholder": "Lütfen {{alanı}}girin ",
+    "emailLabel": "E-posta",
+    "passwordLabel": "Şifre"
+  }
+}

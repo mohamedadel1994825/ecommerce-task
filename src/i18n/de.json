@@ -1,0 +1,205 @@
+{
+  "components": {
+    "productCard": {
+      "removeFromWishList": "{{name}} wurde von der Wunschliste entfernt",
+      "addedToWishList": "{{name}} wurde von der Wunschliste hinzugefügt"
+    },
+    "notifications": {
+      "title": "Überprüfen Sie dieses Angebot",
+      "buttonText": "Zum Angebot gehen"
+    }
+  },
+  "common": {
+    "emptyList": "Es tut uns leid {{listName}} Enthält keine Produkte"
+  },
+  "navigation": {
+    "account": {
+      "accountHeaderTitle": "Konto",
+      "wishListHeaderTitle": "Wunschzettel",
+      "orderListHeaderTitle": "Bestellliste",
+      "orderHeaderTitle": "Auftrag",
+      "contactUsHeaderTitle": "Kontaktiere uns",
+      "editAccountHeaderTitle": "Konto bearbeiten"
+    },
+    "cart": {
+      "cartHeaderTitle": "Wagen"
+    },
+    "categories": {
+      "categoriesHeaderTitle": "Kategorien"
+    },
+    "brands": {
+      "headerTitle": "Marken"
+    },
+    "Brands": {
+      "headerTitle": "Marken"
+    },
+    "deals": {
+      "headerTitle": "Angebote"
+    },
+    "Deals": {
+      "headerTitle": "Angebote"
+    },
+    "home": {
+      "homeHeaderTitle": "Startseite"
+    },
+    "root": {
+      "registerHeaderTitle": "Registrieren",
+      "loginHeaderTitle": "Anmeldung"
+    }
+  },
+  "screens": {
+    "account": {
+      "account": "Konto",
+      "settings": "die Einstellungen",
+      "wishList": "Wunschzettel",
+      "orderList": "Bestellliste",
+      "loginOrRegister": "Anmeldung / Registrieren",
+      "contactUs": "Kontaktiere uns",
+      "changeCurrency": "Währung ändern",
+      "changeLang": "Sprache ändern",
+      "selectBransh": "Wählen Sie Zweig",
+      "logout": "Ausloggen"
+    },
+    "cart": {
+      "emptyList": "Entschuldigung, Ihr Warenkorb ist leer",
+      "checkOut": "Auschecken"
+    },
+    "auth": {
+      "emailLabel": "Email",
+      "usernameLabel": "Email / Telefonnummer",
+      "passwordLabel": "Passwort",
+      "login": "Anmeldung",
+      "register": "Registrieren",
+      "fieldPlaceholder": "Bitte geben Sie Ihre {{field}}",
+      "fieldNotValid": "{{field}} ist ungültig",
+      "fieldRequired": "{{field}} Wird benötigt",
+      "forgotPassword":"Passwort vergessen ?",
+      "securityCodeLabel":"Sicherheitscode",
+      "newPAsswordLabel":"Neues Kennwort",
+      "confirmPasswordLabel":"Passwort bestätigen",
+      "changePasswordText":"Passwort ändern"
+    },
+    "login": {
+      "dontHaveAcc": "Sie haben noch kein Konto? ",
+      "error": "Email / Passwort ist inkorrekt"
+    },
+    "product": {
+      "description": "Beschreibung",
+      "relatedProducts": "Verwandte Produkte",
+      "attributes": "Attribute",
+      "quantity": "Menge",
+      "submit": "einreichen",
+      "addToCart": "In den Warenkorb legen",
+      "productAddedToCart": "{{name}} wurde Ihrem Warenkorb hinzugefügt"
+    },
+    "register": {
+      "firstNameLabel": "Vorname",
+      "lastNameLabel": "Nachname",
+      "phoneLabel": "Telefon",
+      "alreadyHaveAccount": "Sie haben bereits ein Konto? "
+    },
+    "search": {
+      "appBar": "Suche",
+      "placeholder": "Suche..."
+    }
+  },
+  "_navigators": {
+    "tabsTitles": {
+      "home": "Startseite",
+      "categories": "Kategorien",
+      "deals": "Angebote",
+      "account": "Konto",
+      "cart": "Wagen"
+    }
+  },
+  "_screens": {
+    "account": {
+      "welcome": "Herzlich willkommen {{welcomeText}}",
+      "toName": "zu {{name}}",
+      "signIn": "Einloggen",
+      "signUp": "Anmelden",
+      "settings": "DIE EINSTELLUNGEN",
+      "country": "Land",
+      "lang": "Sprache",
+      "switchTo": "العربية",
+      "reachToUs": "Erreichen Sie uns",
+      "callUs": "RUFEN SIE UNS AN",
+      "orders": "Aufträge",
+      "returns": "Kehrt zurück",
+      "wishList": "Wunschzettel",
+      "logout": "Ausloggen"
+    },
+    "cart": {
+      "checkOut": "Auschecken"
+    },
+    "home": {
+      "searchPlaceholder": "Wonach suchen Sie?"
+    },
+    "product": {
+      "backToTop": "Zurück nach oben",
+      "qty": "MENGE",
+      "quantity": "Menge",
+      "addToCart": "IN DEN WARENKORB LEGEN",
+      "overview": "Überblick",
+      "description": "Beschreibung",
+      "specifications": "Spezifikationen",
+      "noOption": "Anscheinend sind einige Optionen für dieses Produkt derzeit nicht verfügbar"
+
+    },
+    "login": {
+      "textHeader": "Ahlan! Willkommen zurück",
+      "dontHaveAccount": "Ich habe kein Konto? ",
+      "navigateTo": "Anmelden",
+      "button": "Einloggen",
+      "forgotPassword": "Passwort vergessen?"
+    },
+    "productGrid": {
+      "filter": "FILTER",
+      "sort": "SORTIEREN"
+    },
+    "productGridFilter": {
+      "price": "Preis",
+      "category": "Kategorie",
+      "brands": "Marken",
+      "reset": "RESET",
+      "apply": "Filter anwenden"
+    },
+    "register": {
+      "createStoreAcc": "Ein kreieren{{storename}} Konto",
+      "firstNameLabel": "Vorname",
+      "lastNameLabel": "Nachname",
+      "button": "Anmelden",
+      "alreadyHaveAccount": "Already have an account? ",
+      "navigateTo": "Sign In"
+    },
+    "selectBrands": {
+      "apply": "Apply Brands"
+    },
+    "selectCategory": {
+      "apply": "Apply Category"
+    },
+    "selectPrice": {
+      "min": "Min",
+      "max": "Max"
+    }
+  },
+  "_components": {
+    "featuredProducts": {
+      "shopNow": "SHOP NOW"
+    },
+    "cartProductCard": {
+      "removeButton": "Remove"
+    },
+    "productQuantity": {
+      "qty": "Quantity"
+    },
+    "table": {
+      "title": "Attributes"
+    }
+  },
+  "_common": {
+    "fieldPlaceholder": "Please enter your {{field}}",
+    "emailLabel": "Email",
+    "passwordLabel": "Password"
+  }
+}

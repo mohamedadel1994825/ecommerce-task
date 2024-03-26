@@ -1,0 +1,204 @@
+{
+  "components": {
+    "productCard": {
+      "removeFromWishList": "{{name}} has been removed from wishlist",
+      "addedToWishList": "{{name}} has been added from wishlist"
+    },
+    "notifications": {
+      "title": "Check this offer",
+      "buttonText": "Go To the offer"
+    }
+  },
+  "common": {
+    "emptyList": "Sorry {{listName}} Doesn't contain products"
+  },
+  "navigation": {
+    "account": {
+      "accountHeaderTitle": "More",
+      "wishListHeaderTitle": "Wish List",
+      "orderListHeaderTitle": "Order List",
+      "orderHeaderTitle": "Order",
+      "contactUsHeaderTitle": "Contact Us",
+      "editAccountHeaderTitle": "Edit Account"
+    },
+    "cart": {
+      "cartHeaderTitle": "My products"
+    },
+    "categories": {
+      "categoriesHeaderTitle": "Explore"
+    },
+    "brands": {
+      "headerTitle": "Brands"
+    },
+    "Brands": {
+      "headerTitle": "Brands"
+    },
+    "deals": {
+      "headerTitle": "Sell Now"
+    },
+    "Deals": {
+      "headerTitle": "Deals"
+    },
+    "home": {
+      "homeHeaderTitle": "Home"
+    },
+    "root": {
+      "registerHeaderTitle": "Register",
+      "loginHeaderTitle": "Login"
+    }
+  },
+  "screens": {
+    "account": {
+      "account": "Account",
+      "settings": "Settings",
+      "wishList": "Wish List",
+      "orderList": "Order List",
+      "loginOrRegister": "Login / Register",
+      "contactUs": "Contact Us",
+      "changeCurrency": "Change Currency",
+      "changeLang": "Change Language",
+      "selectBransh": "Select Branch",
+      "logout": "Logout"
+    },
+    "cart": {
+      "emptyList": "Sorry your cart is empty",
+      "checkOut": "Check Out"
+    },
+    "auth": {
+      "emailLabel": "Email",
+      "usernameLabel": "Email / Phone number",
+      "passwordLabel": "Password",
+      "login": "Login",
+      "register": "Register",
+      "fieldPlaceholder": "Please enter your {{field}}",
+      "fieldNotValid": "{{field}} is invalid",
+      "fieldRequired": "{{field}} is Required",
+      "forgotPassword": "Forgot your password ?",
+      "securityCodeLabel": "Security Code",
+      "newPAsswordLabel": "New Password",
+      "confirmPasswordLabel": "Confirm Password",
+      "changePasswordText": "Change Password"
+    },
+    "login": {
+      "dontHaveAcc": "Don't have Account? ",
+      "error": "Email / Password is incorrect"
+    },
+    "product": {
+      "description": "Description",
+      "relatedProducts": "Related Products",
+      "attributes": "Attributes",
+      "quantity": "Quantity",
+      "submit": "Submit",
+      "addToCart": "Add to cart",
+      "productAddedToCart": "{{name}} has been added to your cart"
+    },
+    "register": {
+      "firstNameLabel": "First Name",
+      "lastNameLabel": "Last Name",
+      "phoneLabel": "Phone",
+      "alreadyHaveAccount": "Already have an account? "
+    },
+    "search": {
+      "appBar": "Search",
+      "placeholder": "Search..."
+    }
+  },
+  "_navigators": {
+    "tabsTitles": {
+      "home": "Home",
+      "categories": "Categories",
+      "deals": "Deals",
+      "account": "Account",
+      "cart": "Cart"
+    }
+  },
+  "_screens": {
+    "account": {
+      "welcome": "Welcome {{welcomeText}}",
+      "toName": "to {{name}}",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "settings": "SETTINGS",
+      "country": "Country",
+      "lang": "Language",
+      "switchTo": "العربية",
+      "reachToUs": "REACH OUT TO US",
+      "callUs": "CALL US",
+      "orders": "Orders",
+      "returns": "Returns",
+      "wishList": "Wishlist",
+      "logout": "Log Out"
+    },
+    "cart": {
+      "checkOut": "Check Out"
+    },
+    "home": {
+      "searchPlaceholder": "What are you looking for?"
+    },
+    "product": {
+      "backToTop": "back to top",
+      "qty": "QTY",
+      "quantity": "Quantity",
+      "addToCart": "ADD TO CART",
+      "overview": "Overview",
+      "description": "Description",
+      "specifications": "Specifications",
+      "noOption": "Looks like some options are not currently available on this Product"
+    },
+    "login": {
+      "textHeader": "Ahlan! Welcome Back",
+      "dontHaveAccount": "Don't have an account? ",
+      "navigateTo": "Sign Up",
+      "button": "Sign In",
+      "forgotPassword": "Forget your password?"
+    },
+    "productGrid": {
+      "filter": "FILTER",
+      "sort": "SORT"
+    },
+    "productGridFilter": {
+      "price": "Price",
+      "category": "Category",
+      "brands": "Brands",
+      "reset": "RESET",
+      "apply": "Apply Filters"
+    },
+    "register": {
+      "createStoreAcc": "Create a {{storename}} account",
+      "firstNameLabel": "First Name",
+      "lastNameLabel": "Last Name",
+      "button": "Sign Up",
+      "alreadyHaveAccount": "Already have an account? ",
+      "navigateTo": "Sign In"
+    },
+    "selectBrands": {
+      "apply": "Apply Brands"
+    },
+    "selectCategory": {
+      "apply": "Apply Category"
+    },
+    "selectPrice": {
+      "min": "Min",
+      "max": "Max"
+    }
+  },
+  "_components": {
+    "featuredProducts": {
+      "shopNow": "SHOP NOW"
+    },
+    "cartProductCard": {
+      "removeButton": "Remove"
+    },
+    "productQuantity": {
+      "qty": "Quantity"
+    },
+    "table": {
+      "title": "Attributes"
+    }
+  },
+  "_common": {
+    "fieldPlaceholder": "Please enter your {{field}}",
+    "emailLabel": "Email",
+    "passwordLabel": "Password"
+  }
+}
