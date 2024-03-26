@@ -1,5 +1,6 @@
+import {Model} from './model';
+
 export interface Brand {
-  id: string;
   name: string;
-  image: string;
+  models: Model[];
 }

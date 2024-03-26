@@ -40,7 +40,10 @@
       "headerTitle": "Deals"
     },
     "home": {
-      "homeHeaderTitle": "Home"
+      "homeHeaderTitle": "Home",
+      "categories":"Categories",
+      "shopByBrands":"Shop by brands",
+      "shopByModels":"Shop by models"
     },
     "root": {
       "registerHeaderTitle": "Register",

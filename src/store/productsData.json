@@ -10,7 +10,6 @@
             "id": "1",
             "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
             "name": "iPhone 13 Pro Max",
-            "variants": ["128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 99,
             "space": "128 GB",
@@ -20,7 +19,6 @@
             "id": "2",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 13 Pro",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 104,
             "space": "256 GB",
@@ -30,7 +28,6 @@
             "id": "3",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 13",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 105,
             "space": "256 GB",
@@ -40,7 +37,6 @@
             "id": "4",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 13 mini",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 111,
             "space": "500 GB",
@@ -50,7 +46,6 @@
             "id": "5",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 12 Pro Max",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 111,
             "space": "256 GB",
@@ -60,7 +55,6 @@
             "id": "6",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 12 Pro",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 14,
             "space": "500 GB",
@@ -70,7 +64,6 @@
             "id": "7",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 12",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 20,
             "space": "256 GB",
@@ -80,7 +73,6 @@
             "id": "8",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone X",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 104,
             "space": "256 GB",
@@ -90,7 +82,6 @@
             "id": "9",
             "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
             "name": "iPhone 8",
-            "variants": ["128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 100,
             "space": "500 GB",
@@ -100,7 +91,6 @@
             "id": "10",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 11 Pro Max",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 104,
             "space": "500 GB",
@@ -110,7 +100,6 @@
             "id": "11",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 11 Pro",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 14,
             "space": "500 GB",
@@ -120,7 +109,6 @@
             "id": "12",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 11",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 123,
             "space": "256 GB",
@@ -130,7 +118,6 @@
             "id": "13",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone X",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 104,
             "space": "500 GB",
@@ -140,7 +127,6 @@
             "id": "14",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 8 Plus",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 104,
             "space": "256 GB",
@@ -150,7 +136,6 @@
             "id": "15",
             "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
             "name": "iPhone 8",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 122,
             "space": "128 GB",
@@ -165,7 +150,6 @@
             "id": "1",
             "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
             "name": "Samsung Galaxy",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 87,
             "space": "128 GB",
@@ -175,7 +159,6 @@
             "id": "2",
             "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
             "name": "Samsung Galaxy 4",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 5,
             "space": "128 GB",
@@ -185,7 +168,6 @@
             "id": "3",
             "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
             "name": "Samsung Note 9",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 18,
             "space": "256 GB",
@@ -195,7 +177,6 @@
             "id": "4",
             "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
             "name": "Samsung Galaxy",
-            "variants": ["64GB", "128GB", "256GB"],
             "availableProducts": "availableProducts",
             "quantity": 99,
             "space": "500 GB",
@@ -213,8 +194,7 @@
         "name": "Apple",
         "models": [
           {
-            "name": "iPad Pro",
-            "variants": ["64GB", "256GB", "512GB"]
+            "name": "iPad Pro"
           }
         ]
       },
@@ -222,8 +202,7 @@
         "name": "Samsung",
         "models": [
           {
-            "name": "Galaxy Tab S7",
-            "variants": ["128GB", "256GB"]
+            "name": "Galaxy Tab S7"
           }
         ]
       }
@@ -237,8 +216,7 @@
         "name": "Apple",
         "models": [
           {
-            "name": "Apple Watch Series 6",
-            "variants": ["40mm", "44mm"]
+            "name": "Apple Watch Series 6"
           }
         ]
       },
@@ -246,8 +224,7 @@
         "name": "Samsung",
         "models": [
           {
-            "name": "Galaxy Watch 3",
-            "variants": ["41mm", "45mm"]
+            "name": "Galaxy Watch 3"
           }
         ]
       }
@@ -261,8 +238,7 @@
         "name": "Apple",
         "models": [
           {
-            "name": "MacBook Pro",
-            "variants": ["13-inch", "15-inch", "16-inch"]
+            "name": "MacBook Pro"
           }
         ]
       },
@@ -270,8 +246,7 @@
         "name": "Dell",
         "models": [
           {
-            "name": "XPS 13",
-            "variants": ["512GB", "1TB"]
+            "name": "XPS 13"
           }
         ]
       }
@@ -285,8 +260,7 @@
         "name": "Sony",
         "models": [
           {
-            "name": "PlayStation 5",
-            "variants": ["Standard", "Digital Edition"]
+            "name": "PlayStation 5"
           }
         ]
       },
@@ -294,8 +268,7 @@
         "name": "Microsoft",
         "models": [
           {
-            "name": "Xbox Series X",
-            "variants": ["1TB SSD"]
+            "name": "Xbox Series X"
           }
         ]
       }
@@ -309,8 +282,7 @@
         "name": "HP",
         "models": [
           {
-            "name": "Pavilion",
-            "variants": ["8GB RAM", "16GB RAM", "32GB RAM"]
+            "name": "Pavilion"
           }
         ]
       },
@@ -318,8 +290,7 @@
         "name": "Dell",
         "models": [
           {
-            "name": "Inspiron",
-            "variants": ["256GB SSD", "512GB SSD", "1TB HDD"]
+            "name": "Inspiron"
           }
         ]
       }
@@ -333,8 +304,7 @@
         "name": "Sony",
         "models": [
           {
-            "name": "WH-1000XM4",
-            "variants": ["Black ", "Silver "]
+            "name": "WH-1000XM4"
           }
         ]
       },
@@ -342,8 +312,7 @@
         "name": "Bose",
         "models": [
           {
-            "name": "QuietComfort 35 II",
-            "variants": ["Black ", "White"]
+            "name": "QuietComfort 35 II"
           }
         ]
       }
@@ -357,8 +326,7 @@
         "name": "Anker",
         "models": [
           {
-            "name": "PowerCore 10000",
-            "variants": ["Black ", "White"]
+            "name": "PowerCore 10000"
           }
         ]
       },
@@ -366,8 +334,7 @@
         "name": "Belkin",
         "models": [
           {
-            "name": "Boost Charge Power Bank",
-            "variants": ["10,000mAh", "20,000mAh"]
+            "name": "Boost Charge Power Bank"
           }
         ]
       }
@@ -381,8 +348,7 @@
         "name": "AMD",
         "models": [
           {
-            "name": "Ryzen 7 5800X",
-            "variants": ["8-Core", "16-Thread"]
+            "name": "Ryzen 7 5800X"
           }
         ]
       },
@@ -391,7 +357,6 @@
         "models": [
           {
             "name": "GeForce RTX 3080",
-            "variants": ["Founders Edition", "Custom"]
           }
         ]
       }
@@ -406,7 +371,6 @@
         "models": [
           {
             "name": "EOS R5",
-            "variants": ["Body Only", "24-mm Lens Kit"]
           }
         ]
       },
@@ -415,7 +379,6 @@
         "models": [
           {
             "name": "Alpha 7 III",
-            "variants": ["Body Only", "28-70mm Lens Kit"]
           }
         ]
       }
@@ -430,7 +393,6 @@
         "models": [
           {
             "name": "UltraGear 27GL850-B",
-            "variants": ["27-inch"]
           }
         ]
       },
@@ -439,7 +401,6 @@
         "models": [
           {
             "name": "S2721DGF",
-            "variants": ["27-inch"]
           }
         ]
       }
@@ -454,7 +415,6 @@
         "models": [
           {
             "name": "One SL",
-            "variants": ["Black ", "White"]
           }
         ]
       },
@@ -463,7 +423,6 @@
         "models": [
           {
             "name": "Charge 4",
-            "variants": ["Black ", "Blue "]
           }
         ]
       }
@@ -478,7 +437,6 @@
         "models": [
           {
             "name": "Archer A7",
-            "variants": ["AC1750"]
           }
         ]
       },
@@ -487,7 +445,6 @@
         "models": [
           {
             "name": "RT-AX86U",
-            "variants": ["AX5700"]
           }
         ]
       }
