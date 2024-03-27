@@ -11,12 +11,6 @@ jest.mock("../../../store/productsData.json", () => ({
 describe("CategoryList", () => {
   afterEach(cleanup);
 
-  const categories = [
-    { id: 1, name: "Category 1", brands: [{ id: 1, name: "Brand 1" }] },
-    { id: 2, name: "Category 2", brands: [{ id: 2, name: "Brand 2" }] },
-    { id: 3, name: "Category 3", brands: [{ id: 3, name: "Brand 3" }] },
-  ];
-
   const selectedCategory = {
     id: 2,
     name: "Category 2",

@@ -19,8 +19,11 @@ const ModelList: React.FC<ModelListProps> = memo(({ models }) => {
 
   return (
     <>
-      <Text style={styles.modelTitle}>{t("navigation:home:shopByModels")}</Text>
+      <Text testID="shop-by-models" style={styles.modelTitle}>
+        {t("navigation:home:shopByModels")}
+      </Text>
       <CustomList
+        testID="custom-list"
         style={styles.listStyle}
         contentContainerStyle={styles.modelListContainer}
         data={models}
