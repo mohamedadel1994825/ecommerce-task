@@ -10,6 +10,7 @@ const ModelCard: React.FC<Model> = memo(({ item }) => {
   return (
     <TouchableOpacity style={styles.container}>
       <FastImage
+        testID="model-image"
         resizeMode={FastImage.resizeMode.contain}
         source={{ uri: image }}
         style={styles.image}
