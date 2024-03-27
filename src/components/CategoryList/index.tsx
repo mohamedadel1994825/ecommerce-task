@@ -53,7 +53,7 @@ const CategoryList: React.FC<BrandListProps> = memo(
           data={productsData}
           renderItem={renderCategoryItem}
           keyExtractor={keyExtractor}
-          ItemSeparatorComponent={() => <Separator width={15} />}
+          ItemSeparatorComponent={Separator}
         />
         <View style={styles.categoryItemIndicator} />
       </>

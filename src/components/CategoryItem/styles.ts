@@ -21,8 +21,5 @@ export const styles = StyleSheet.create({
     borderBottomColor: Colors.primary,
     width: '100%',
     marginTop: 1,
-  },
-  separator: {
-    width: 20,
-  },
+  }
 });

@@ -13,9 +13,6 @@ export const styles = StyleSheet.create({
     paddingLeft: 15,
     marginTop: 10,
   },
-  separator: {
-    width: 15,
-  },
   categoryItemIndicator: {
     width: '100%',
     height: 1,

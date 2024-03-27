@@ -50,7 +50,7 @@ const BrandList: React.FC<BrandListProps> = memo(
           data={brands}
           renderItem={renderBrandItem}
           keyExtractor={keyExtractor}
-          ItemSeparatorComponent={() => <Separator width={15} />}
+          ItemSeparatorComponent={Separator}
         />
       </>
     );
