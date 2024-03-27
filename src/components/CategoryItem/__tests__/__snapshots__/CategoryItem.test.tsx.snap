@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryItem should match snapshot 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "#0040ff",
+          "fontSize": 12,
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "fontFamily": "Material Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+  >
+    ?
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "fontSize": 13,
+          "height": 25,
+          "marginTop": 10,
+        },
+        {
+          "color": "#0040ff",
+        },
+      ]
+    }
+  >
+    Category Name
+  </Text>
+  <View
+    style={
+      [
+        {
+          "borderBottomColor": "#0040ff",
+          "borderBottomWidth": 2,
+          "marginTop": 1,
+          "width": "100%",
+        },
+        {
+          "backgroundColor": "#0040ff",
+        },
+      ]
+    }
+  />
+</View>
+`;

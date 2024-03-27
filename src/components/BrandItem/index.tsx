@@ -15,6 +15,7 @@ const BrandItem: React.FC<BrandItemProps> = memo(
   ({ item, isSelected, onPress }) => {
     return (
       <TouchableOpacity
+        testID="brand-item"
         style={[
           styles.brandItemContainer,
           { backgroundColor: isSelected ? Colors.primary : Colors.gray100 },
