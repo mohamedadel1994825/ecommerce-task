@@ -1,14 +1,11 @@
 import React, { memo } from "react";
-import { View, ViewStyle } from "react-native";
+import { View } from "react-native";
 import { styles } from "./styles";
 
-interface SeparatorProps {
-  width: number;
-  style?: ViewStyle;
-}
+interface SeparatorProps {}
 
-const Separator: React.FC<SeparatorProps> = memo(({ width = 15 }) => (
-  <View style={[styles.list, { width }]} />
+const Separator: React.FC<SeparatorProps> = memo(() => (
+  <View style={styles.list} />
 ));
 
 export { Separator };
