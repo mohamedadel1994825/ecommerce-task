@@ -5,7 +5,7 @@ import { styles } from "./styles";
 interface SeparatorProps {}
 
 const Separator: React.FC<SeparatorProps> = memo(() => (
-  <View style={styles.list} />
+  <View testID="list-item-separator" style={styles.list} />
 ));
 
 export { Separator };

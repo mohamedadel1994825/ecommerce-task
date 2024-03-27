@@ -130,6 +130,7 @@ exports[`BrandList should match snapshot 1`] = `
                 "width": 15,
               }
             }
+            testID="list-item-separator"
           />
         </View>
         <View
@@ -198,6 +199,7 @@ exports[`BrandList should match snapshot 1`] = `
                 "width": 15,
               }
             }
+            testID="list-item-separator"
           />
         </View>
         <View
