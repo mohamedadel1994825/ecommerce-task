@@ -1,5 +1,5 @@
 import { Colors } from "@styles";
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { Text, TouchableOpacity } from "react-native";
 import CommunityIcon from "react-native-vector-icons/MaterialCommunityIcons";
@@ -7,7 +7,7 @@ import { styles } from "./styles";
 
 interface MiddleAddIconProps {}
 
-const TabsMiddleAddIcon: React.FC<MiddleAddIconProps> = () => {
+const TabsMiddleAddIcon: React.FC<MiddleAddIconProps> = memo(() => {
   const { t } = useTranslation();
 
   return (
@@ -23,6 +23,6 @@ const TabsMiddleAddIcon: React.FC<MiddleAddIconProps> = () => {
       </Text>
     </TouchableOpacity>
   );
-};
+});
 
 export { TabsMiddleAddIcon };

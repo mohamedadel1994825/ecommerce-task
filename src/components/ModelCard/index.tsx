@@ -1,10 +1,10 @@
 import { Model } from "@interfaces";
-import React from "react";
+import React, { memo } from "react";
 import { Text, TouchableOpacity } from "react-native";
 import FastImage from "react-native-fast-image";
 import { styles } from "./styles";
 
-const ModelCard: React.FC<Model> = ({ item }) => {
+const ModelCard: React.FC<Model> = memo(({ item }) => {
   const { name, image, availableProducts, quantity, space, color } = item;
 
   return (
@@ -22,6 +22,6 @@ const ModelCard: React.FC<Model> = ({ item }) => {
       <Text style={styles.quantityText}>{quantity}</Text>
     </TouchableOpacity>
   );
-};
+});
 
 export { ModelCard };

@@ -8,7 +8,7 @@ import HomeRouter from "./home.router";
 
 const BottomTabs = createMaterialBottomTabNavigator<TabsRouter>();
 
-export default () => {
+export default React.memo(() => {
   return (
     <>
       <TabsMiddleAddIcon />
@@ -45,4 +45,4 @@ export default () => {
       </BottomTabs.Navigator>
     </>
   );
-};
+});
