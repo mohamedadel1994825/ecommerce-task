@@ -1,29 +1,5 @@
 {
-  "components": {
-    "productCard": {
-      "removeFromWishList": "تم إزالة {{name}} من قائمة الاماني",
-      "addedToWishList": "تم إضافة {{name}} الى قائمة الاماني"
-    },
-    "notifications": {
-      "title": "تفقد هذا العرض",
-      "buttonText": "اذهب الى العرض"
-    }
-  },
-  "common": {
-    "emptyList": "للاسف {{listName}} لا يوجد بها منتجات"
-  },
   "navigation": {
-    "account": {
-      "accountHeaderTitle": "المزيد",
-      "wishListHeaderTitle": "قائمة الأماني",
-      "orderHeaderTitle": "طلب",
-      "orderListHeaderTitle": "قائمة الطلبات",
-      "contactUsHeaderTitle": "تواصل معانا",
-      "editAccountHeaderTitle": "تعديل الحساب"
-    },
-    "cart": {
-      "cartHeaderTitle": "منتجاتي"
-    },
     "categories": {
       "categoriesHeaderTitle": "تصفح"
     },
@@ -41,67 +17,6 @@
     },
     "home": {
       "homeHeaderTitle": "الرئيسية"
-    },
-    "root": {
-      "registerHeaderTitle": "تسجيل الحساب",
-      "loginHeaderTitle": "تسجيل الدخول"
-    }
-  },
-  "screens": {
-    "account": {
-      "account": "الحساب",
-      "settings": "الإعدادات",
-      "wishList": "قائمة الأماني",
-      "orderList": "قائمة الطلبات",
-      "loginOrRegister": "تسجيل الحساب او الدخول",
-      "contactUs": "تواصل معانا",
-      "changeCurrency": "تغيير العملة",
-      "selectBransh": "أختار فرع",
-      "changeLang": "تغيير اللغة",
-      "logout": "تسجيل الخروج"
-    },
-    "cart": {
-      "emptyList": "Sorry your cart is empty",
-      "checkOut": "الذهاب إلى الشراء"
-    },
-    "auth": {
-      "emailLabel": "البريد الاليكتروني",
-      "usernameLabel": "البريد الإلكتروني / رقم الهاتف",
-      "passwordLabel": "رمز الدخول",
-      "login": "تسجيل الدخول",
-      "register": "تسجيل الحساب",
-      "fieldPlaceholder": "من فضلك أدخل {{field}}",
-      "fieldNotValid": "{{field}} غير صحيح",
-      "fieldRequired": "{{field}} مطلوب",
-      "forgotPassword": "هل نسيت كلمة المرور ؟",
-      "securityCodeLabel": "رمز التحقق",
-      "newPAsswordLabel": "كلمة السر الجديدة",
-      "confirmPasswordLabel": "تأكيد كلمة السر",
-      "changePasswordText": "تغيير كلمة السر"
-    },
-    "login": {
-      "dontHaveAcc": "ليس لديك حساب؟ ",
-      "error": "البريد الالكتروني او رمز الدخول غير صحيح"
-    },
-    "product": {
-      "description": "التفاصيل",
-      "relatedProducts": "منتجات ذات صلة",
-      "attributes": "الخصائص",
-      "quantity": "الكمية",
-      "submit": "تسليم",
-      "addToCart": "إضافة الى السلة",
-      "productAddedToCart": "تم إضافة {{name}} الى السلة",
-      "noOption": "يبدو ان هذا المنتج لا يتوفر به بعض الخيارات المطلوبة"
-    },
-    "register": {
-      "firstNameLabel": "الاسم الاول",
-      "lastNameLabel": "الاسم الاخير",
-      "phoneLabel": "الهاتف",
-      "alreadyHaveAccount": "بالفعل لديك حساب "
-    },
-    "search": {
-      "appBar": "بحث",
-      "placeholder": "إبحث..."
     }
   }
 }

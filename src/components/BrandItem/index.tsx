@@ -1,7 +1,7 @@
-import React from 'react';
-import {Text, TouchableOpacity} from 'react-native';
-import {styles} from './styles';
-import { Colors } from '@styles';
+import { Colors } from "@styles";
+import React, { memo } from "react";
+import { Text, TouchableOpacity } from "react-native";
+import { styles } from "./styles";
 
 interface BrandItemProps {
   item: {
@@ -11,19 +11,22 @@ interface BrandItemProps {
   onPress: () => void;
 }
 
-const BrandItem: React.FC<BrandItemProps> = ({item, isSelected, onPress}) => {
-  return (
-    <TouchableOpacity
-      style={[
-        styles.brandItemContainer,
-        {backgroundColor: isSelected ? Colors.primary : Colors.gray100},
-      ]}
-      onPress={onPress}>
-      <Text style={{color: isSelected ? Colors.white : Colors.black}}>
-        {item.name}
-      </Text>
-    </TouchableOpacity>
-  );
-};
+const BrandItem: React.FC<BrandItemProps> = memo(
+  ({ item, isSelected, onPress }) => {
+    return (
+      <TouchableOpacity
+        style={[
+          styles.brandItemContainer,
+          { backgroundColor: isSelected ? Colors.primary : Colors.gray100 },
+        ]}
+        onPress={onPress}
+      >
+        <Text style={{ color: isSelected ? Colors.white : Colors.black }}>
+          {item.name}
+        </Text>
+      </TouchableOpacity>
+    );
+  }
+);
 
-export {BrandItem};
+export { BrandItem };
