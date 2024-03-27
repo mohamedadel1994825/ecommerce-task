@@ -20,6 +20,12 @@
       "categories": "Categories",
       "shopByBrands": "Shop by brands",
       "shopByModels": "Shop by models"
+    },
+    "cart": {
+      "cartHeaderTitle": "My products"
+    },
+    "account": {
+      "accountHeaderTitle": "More"
     }
   },
   "_navigators": {

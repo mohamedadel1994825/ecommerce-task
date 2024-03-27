@@ -1,48 +1,17 @@
-import * as React from "react";
-import { useTranslation } from "react-i18next";
-import CommunityIcon from "react-native-vector-icons/MaterialCommunityIcons";
-
 import { TabsRouter } from "@interfaces";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-
 import { Colors } from "@styles";
-import { Text, TouchableOpacity } from "react-native";
+import * as React from "react";
+import { TabsMiddleAddIcon } from "../components";
+import { BottomTabScreenOptions } from "./BottomTabScreenOptions";
 import HomeRouter from "./home.router";
 
 const BottomTabs = createMaterialBottomTabNavigator<TabsRouter>();
 
 export default () => {
-  const { t } = useTranslation();
-  const MiddleAddIcon = () => (
-    <TouchableOpacity
-      style={{
-        backgroundColor: Colors.surface,
-        height: 90,
-        width: 90,
-        // justifyContent: 'center',
-        alignItems: "center",
-        borderRadius: 100,
-        alignSelf: "center",
-        position: "absolute",
-        zIndex: 100,
-        bottom: 20,
-        // marginBottom: -100,
-      }}
-    >
-      <CommunityIcon
-        name="plus"
-        color={Colors.white}
-        size={24}
-        style={{ marginTop: 18 }}
-      />
-      <Text style={{ fontSize: 12, marginTop: 10, color: Colors.white }}>
-        {t("navigation:deals:headerTitle")}
-      </Text>
-    </TouchableOpacity>
-  );
   return (
     <>
-      <MiddleAddIcon />
+      <TabsMiddleAddIcon />
       <BottomTabs.Navigator
         initialRouteName="Home"
         sceneAnimationEnabled
@@ -51,84 +20,27 @@ export default () => {
         <BottomTabs.Screen
           name="HomeScreen"
           component={HomeRouter}
-          options={{
-            tabBarColor: Colors.primary,
-            tabBarLabel: (
-              <Text style={{ fontSize: 12 }}>
-                {t("navigation:home:homeHeaderTitle")}
-              </Text>
-            ),
-            tabBarIcon: ({ color, focused }) => (
-              <CommunityIcon
-                name="home"
-                size={24}
-                color={focused ? Colors.primary : color}
-              />
-            ),
-          }}
+          options={BottomTabScreenOptions().home}
         />
         <BottomTabs.Screen
           name="Categories"
           component={HomeRouter}
-          options={{
-            tabBarLabel: (
-              <Text style={{ fontSize: 12 }}>
-                {t("navigation:categories:categoriesHeaderTitle")}
-              </Text>
-            ),
-            tabBarIcon: ({ color, focused }) => (
-              <CommunityIcon
-                name="magnify"
-                size={24}
-                color={focused ? Colors.primary : color}
-              />
-            ),
-          }}
+          options={BottomTabScreenOptions().categories}
         />
         <BottomTabs.Screen
           name="Deals"
           component={HomeRouter}
-          options={{
-            tabBarLabel: <Text style={{ fontSize: 12 }} />,
-            // tabBarIcon: middleAddIcon,
-          }}
+          options={BottomTabScreenOptions().deals}
         />
         <BottomTabs.Screen
           name="Cart"
           component={HomeRouter}
-          options={{
-            // tabBarBadge: 0,
-            tabBarLabel: (
-              <Text style={{ fontSize: 12 }}>
-                {t("navigation:cart:cartHeaderTitle")}
-              </Text>
-            ),
-            tabBarIcon: ({ color, focused }) => (
-              <CommunityIcon
-                name="cube"
-                size={24}
-                color={focused ? Colors.primary : color}
-              />
-            ),
-          }}
+          options={BottomTabScreenOptions().cart}
         />
         <BottomTabs.Screen
           name="Account"
           component={HomeRouter}
-          options={{
-            tabBarLabel: (
-              <Text style={{ fontSize: 12 }}>
-                {t("navigation:account:accountHeaderTitle")}
-              </Text>
-            ),
-            tabBarIcon: ({ color, focused }) => (
-              <CommunityIcon
-                name="menu"
-                size={24}
-                color={focused ? Colors.primary : color}
-              />
-            ),
-          }}
+          options={BottomTabScreenOptions().account}
         />
       </BottomTabs.Navigator>
     </>

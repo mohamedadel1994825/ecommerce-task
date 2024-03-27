@@ -7,6 +7,8 @@ export * from './ListSeparator';
 export * from './ModelCard';
 export * from './ModelList';
 export * from './RenderModelItem';
+export * from './TabsMiddleAddIcon';
+
 
 
 
