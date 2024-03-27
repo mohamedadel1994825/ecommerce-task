@@ -1,13 +1,7 @@
 import { cleanup, fireEvent, render } from "@testing-library/react-native";
 import React from "react";
 import { BrandList } from "../index";
-jest.mock("../../../store/productsData.json", () => ({
-  brands: [
-    { id: 1, name: "Brand 1" },
-    { id: 2, name: "Brand 2" },
-    { id: 3, name: "Brand 3" },
-  ],
-}));
+
 describe("BrandList", () => {
   afterEach(cleanup);
 

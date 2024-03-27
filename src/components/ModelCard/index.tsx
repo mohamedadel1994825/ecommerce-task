@@ -8,7 +8,7 @@ const ModelCard: React.FC<Model> = memo(({ item }) => {
   const { name, image, availableProducts, quantity, space, color } = item;
 
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity testID="model-card" style={styles.container}>
       <FastImage
         testID="model-image"
         resizeMode={FastImage.resizeMode.contain}

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Separator should match snapshot 1`] = `
+<View
+  style={
+    {
+      "width": 15,
+    }
+  }
+  testID="list-item-separator"
+/>
+`;

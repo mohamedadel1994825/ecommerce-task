@@ -1,0 +1,453 @@
+[
+  {
+    "category": "Mobiles",
+    "image": "phone-iphone",
+    "brands": [
+      {
+        "name": "Apple",
+        "models": [
+          {
+            "id": "1",
+            "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+            "name": "iPhone 13 Pro Max",
+            "availableProducts": "availableProducts",
+            "quantity": 99,
+            "space": "128 GB",
+            "color": "Black "
+          },
+          {
+            "id": "2",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 13 Pro",
+            "availableProducts": "availableProducts",
+            "quantity": 104,
+            "space": "256 GB",
+            "color": "Sliver "
+          },
+          {
+            "id": "3",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 13",
+            "availableProducts": "availableProducts",
+            "quantity": 105,
+            "space": "256 GB",
+            "color": "Gray "
+          },
+          {
+            "id": "4",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 13 mini",
+            "availableProducts": "availableProducts",
+            "quantity": 111,
+            "space": "500 GB",
+            "color": "Blue "
+          },
+          {
+            "id": "5",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 12 Pro Max",
+            "availableProducts": "availableProducts",
+            "quantity": 111,
+            "space": "256 GB",
+            "color": "Silver "
+          },
+          {
+            "id": "6",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 12 Pro",
+            "availableProducts": "availableProducts",
+            "quantity": 14,
+            "space": "500 GB",
+            "color": "Black "
+          },
+          {
+            "id": "7",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 12",
+            "availableProducts": "availableProducts",
+            "quantity": 20,
+            "space": "256 GB",
+            "color": "Blue "
+          },
+          {
+            "id": "8",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone X",
+            "availableProducts": "availableProducts",
+            "quantity": 104,
+            "space": "256 GB",
+            "color": "Black "
+          },
+          {
+            "id": "9",
+            "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+            "name": "iPhone 8",
+            "availableProducts": "availableProducts",
+            "quantity": 100,
+            "space": "500 GB",
+            "color": "Silver "
+          },
+          {
+            "id": "10",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 11 Pro Max",
+            "availableProducts": "availableProducts",
+            "quantity": 104,
+            "space": "500 GB",
+            "color": "Silver "
+          },
+          {
+            "id": "11",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 11 Pro",
+            "availableProducts": "availableProducts",
+            "quantity": 14,
+            "space": "500 GB",
+            "color": "Silver "
+          },
+          {
+            "id": "12",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 11",
+            "availableProducts": "availableProducts",
+            "quantity": 123,
+            "space": "256 GB",
+            "color": "Green "
+          },
+          {
+            "id": "13",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone X",
+            "availableProducts": "availableProducts",
+            "quantity": 104,
+            "space": "500 GB",
+            "color": "yellow"
+          },
+          {
+            "id": "14",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 8 Plus",
+            "availableProducts": "availableProducts",
+            "quantity": 104,
+            "space": "256 GB",
+            "color": "Blue  "
+          },
+          {
+            "id": "15",
+            "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+            "name": "iPhone 8",
+            "availableProducts": "availableProducts",
+            "quantity": 122,
+            "space": "128 GB",
+            "color": "Green "
+          }
+        ]
+      },
+      {
+        "name": "Samsung",
+        "models": [
+          {
+            "id": "1",
+            "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+            "name": "Samsung Galaxy",
+            "availableProducts": "availableProducts",
+            "quantity": 87,
+            "space": "128 GB",
+            "color": "Blue"
+          },
+          {
+            "id": "2",
+            "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+            "name": "Samsung Galaxy 4",
+            "availableProducts": "availableProducts",
+            "quantity": 5,
+            "space": "128 GB",
+            "color": "Gray"
+          },
+          {
+            "id": "3",
+            "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+            "name": "Samsung Note 9",
+            "availableProducts": "availableProducts",
+            "quantity": 18,
+            "space": "256 GB",
+            "color": "Silver"
+          },
+          {
+            "id": "4",
+            "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+            "name": "Samsung Galaxy",
+            "availableProducts": "availableProducts",
+            "quantity": 99,
+            "space": "500 GB",
+            "color": "Green "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tablets",
+    "image": "tablet-mac",
+    "brands": [
+      {
+        "name": "Apple",
+        "models": [
+          {
+            "name": "iPad Pro"
+          }
+        ]
+      },
+      {
+        "name": "Samsung",
+        "models": [
+          {
+            "name": "Galaxy Tab S7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Smartwatches",
+    "image": "watch",
+    "brands": [
+      {
+        "name": "Apple",
+        "models": [
+          {
+            "name": "Apple Watch Series 6"
+          }
+        ]
+      },
+      {
+        "name": "Samsung",
+        "models": [
+          {
+            "name": "Galaxy Watch 3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Laptops",
+    "image": "laptop-mac",
+    "brands": [
+      {
+        "name": "Apple",
+        "models": [
+          {
+            "name": "MacBook Pro"
+          }
+        ]
+      },
+      {
+        "name": "Dell",
+        "models": [
+          {
+            "name": "XPS 13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Gaming",
+    "image": "videogame-asset",
+    "brands": [
+      {
+        "name": "Sony",
+        "models": [
+          {
+            "name": "PlayStation 5"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "models": [
+          {
+            "name": "Xbox Series X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Desktops",
+    "image": "desktop-mac",
+    "brands": [
+      {
+        "name": "HP",
+        "models": [
+          {
+            "name": "Pavilion"
+          }
+        ]
+      },
+      {
+        "name": "Dell",
+        "models": [
+          {
+            "name": "Inspiron"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Headphones",
+    "image": "headphones",
+    "brands": [
+      {
+        "name": "Sony",
+        "models": [
+          {
+            "name": "WH-1000XM4"
+          }
+        ]
+      },
+      {
+        "name": "Bose",
+        "models": [
+          {
+            "name": "QuietComfort 35 II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Accessories",
+    "image": "access-time",
+    "brands": [
+      {
+        "name": "Anker",
+        "models": [
+          {
+            "name": "PowerCore 10000"
+          }
+        ]
+      },
+      {
+        "name": "Belkin",
+        "models": [
+          {
+            "name": "Boost Charge Power Bank"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "PC Parts",
+    "image": "upcoming",
+    "brands": [
+      {
+        "name": "AMD",
+        "models": [
+          {
+            "name": "Ryzen 7 5800X"
+          }
+        ]
+      },
+      {
+        "name": "NVIDIA",
+        "models": [
+          {
+            "name": "GeForce RTX 3080"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cameras",
+    "image": "camera-alt",
+    "brands": [
+      {
+        "name": "Canon",
+        "models": [
+          {
+            "name": "EOS R5"
+          }
+        ]
+      },
+      {
+        "name": "Sony",
+        "models": [
+          {
+            "name": "Alpha 7 III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Monitors",
+    "image": "monitor",
+    "brands": [
+      {
+        "name": "LG",
+        "models": [
+          {
+            "name": "UltraGear 27GL850-B"
+          }
+        ]
+      },
+      {
+        "name": "Dell",
+        "models": [
+          {
+            "name": "S2721DGF"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Speakers",
+    "image": "speaker-phone",
+    "brands": [
+      {
+        "name": "Sonos",
+        "models": [
+          {
+            "name": "One SL"
+          }
+        ]
+      },
+      {
+        "name": "JBL",
+        "models": [
+          {
+            "name": "Charge 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Routers",
+    "image": "router",
+    "brands": [
+      {
+        "name": "TP-Link",
+        "models": [
+          {
+            "name": "Archer A7"
+          }
+        ]
+      },
+      {
+        "name": "ASUS",
+        "models": [
+          {
+            "name": "RT-AX86U"
+          }
+        ]
+      }
+    ]
+  }
+]

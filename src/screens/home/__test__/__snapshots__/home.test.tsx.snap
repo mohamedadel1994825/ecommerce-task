@@ -1,0 +1,4059 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen should match snapshot 1`] = `
+<RCTScrollView
+  showsVerticalScrollIndicator={false}
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        {
+          "fontSize": 15,
+          "fontWeight": "500",
+          "marginBottom": 14,
+          "marginTop": 10,
+          "paddingLeft": 15,
+        }
+      }
+    >
+      navigation:home:categories
+    </Text>
+    <View>
+      <RCTScrollView
+        ItemSeparatorComponent={
+          {
+            "$$typeof": Symbol(react.memo),
+            "compare": null,
+            "type": [Function],
+          }
+        }
+        contentContainerStyle={
+          {
+            "paddingHorizontal": 15,
+          }
+        }
+        data={
+          [
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Black ",
+                      "id": "1",
+                      "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+                      "name": "iPhone 13 Pro Max",
+                      "quantity": 99,
+                      "space": "128 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Sliver ",
+                      "id": "2",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 13 Pro",
+                      "quantity": 104,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Gray ",
+                      "id": "3",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 13",
+                      "quantity": 105,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Blue ",
+                      "id": "4",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 13 mini",
+                      "quantity": 111,
+                      "space": "500 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Silver ",
+                      "id": "5",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 12 Pro Max",
+                      "quantity": 111,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Black ",
+                      "id": "6",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 12 Pro",
+                      "quantity": 14,
+                      "space": "500 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Blue ",
+                      "id": "7",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 12",
+                      "quantity": 20,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Black ",
+                      "id": "8",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone X",
+                      "quantity": 104,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Silver ",
+                      "id": "9",
+                      "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+                      "name": "iPhone 8",
+                      "quantity": 100,
+                      "space": "500 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Silver ",
+                      "id": "10",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 11 Pro Max",
+                      "quantity": 104,
+                      "space": "500 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Silver ",
+                      "id": "11",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 11 Pro",
+                      "quantity": 14,
+                      "space": "500 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Green ",
+                      "id": "12",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 11",
+                      "quantity": 123,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "yellow",
+                      "id": "13",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone X",
+                      "quantity": 104,
+                      "space": "500 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Blue  ",
+                      "id": "14",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 8 Plus",
+                      "quantity": 104,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Green ",
+                      "id": "15",
+                      "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      "name": "iPhone 8",
+                      "quantity": 122,
+                      "space": "128 GB",
+                    },
+                  ],
+                  "name": "Apple",
+                },
+                {
+                  "models": [
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Blue",
+                      "id": "1",
+                      "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                      "name": "Samsung Galaxy",
+                      "quantity": 87,
+                      "space": "128 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Gray",
+                      "id": "2",
+                      "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                      "name": "Samsung Galaxy 4",
+                      "quantity": 5,
+                      "space": "128 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Silver",
+                      "id": "3",
+                      "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                      "name": "Samsung Note 9",
+                      "quantity": 18,
+                      "space": "256 GB",
+                    },
+                    {
+                      "availableProducts": "availableProducts",
+                      "color": "Green ",
+                      "id": "4",
+                      "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                      "name": "Samsung Galaxy",
+                      "quantity": 99,
+                      "space": "500 GB",
+                    },
+                  ],
+                  "name": "Samsung",
+                },
+              ],
+              "category": "Mobiles",
+              "image": "phone-iphone",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "iPad Pro",
+                    },
+                  ],
+                  "name": "Apple",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "Galaxy Tab S7",
+                    },
+                  ],
+                  "name": "Samsung",
+                },
+              ],
+              "category": "Tablets",
+              "image": "tablet-mac",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "Apple Watch Series 6",
+                    },
+                  ],
+                  "name": "Apple",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "Galaxy Watch 3",
+                    },
+                  ],
+                  "name": "Samsung",
+                },
+              ],
+              "category": "Smartwatches",
+              "image": "watch",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "MacBook Pro",
+                    },
+                  ],
+                  "name": "Apple",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "XPS 13",
+                    },
+                  ],
+                  "name": "Dell",
+                },
+              ],
+              "category": "Laptops",
+              "image": "laptop-mac",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "PlayStation 5",
+                    },
+                  ],
+                  "name": "Sony",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "Xbox Series X",
+                    },
+                  ],
+                  "name": "Microsoft",
+                },
+              ],
+              "category": "Gaming",
+              "image": "videogame-asset",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "Pavilion",
+                    },
+                  ],
+                  "name": "HP",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "Inspiron",
+                    },
+                  ],
+                  "name": "Dell",
+                },
+              ],
+              "category": "Desktops",
+              "image": "desktop-mac",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "WH-1000XM4",
+                    },
+                  ],
+                  "name": "Sony",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "QuietComfort 35 II",
+                    },
+                  ],
+                  "name": "Bose",
+                },
+              ],
+              "category": "Headphones",
+              "image": "headphones",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "PowerCore 10000",
+                    },
+                  ],
+                  "name": "Anker",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "Boost Charge Power Bank",
+                    },
+                  ],
+                  "name": "Belkin",
+                },
+              ],
+              "category": "Accessories",
+              "image": "access-time",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "Ryzen 7 5800X",
+                    },
+                  ],
+                  "name": "AMD",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "GeForce RTX 3080",
+                    },
+                  ],
+                  "name": "NVIDIA",
+                },
+              ],
+              "category": "PC Parts",
+              "image": "upcoming",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "EOS R5",
+                    },
+                  ],
+                  "name": "Canon",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "Alpha 7 III",
+                    },
+                  ],
+                  "name": "Sony",
+                },
+              ],
+              "category": "Cameras",
+              "image": "camera-alt",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "UltraGear 27GL850-B",
+                    },
+                  ],
+                  "name": "LG",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "S2721DGF",
+                    },
+                  ],
+                  "name": "Dell",
+                },
+              ],
+              "category": "Monitors",
+              "image": "monitor",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "One SL",
+                    },
+                  ],
+                  "name": "Sonos",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "Charge 4",
+                    },
+                  ],
+                  "name": "JBL",
+                },
+              ],
+              "category": "Speakers",
+              "image": "speaker-phone",
+            },
+            {
+              "brands": [
+                {
+                  "models": [
+                    {
+                      "name": "Archer A7",
+                    },
+                  ],
+                  "name": "TP-Link",
+                },
+                {
+                  "models": [
+                    {
+                      "name": "RT-AX86U",
+                    },
+                  ],
+                  "name": "ASUS",
+                },
+              ],
+              "category": "Routers",
+              "image": "router",
+            },
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        stickyHeaderIndices={[]}
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": "#0040ff",
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": "#0040ff",
+                    },
+                  ]
+                }
+              >
+                Mobiles
+              </Text>
+              <View
+                style={
+                  [
+                    {
+                      "borderBottomColor": "#0040ff",
+                      "borderBottomWidth": 2,
+                      "marginTop": 1,
+                      "width": "100%",
+                    },
+                    {
+                      "backgroundColor": "#0040ff",
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Tablets
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Smartwatches
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Laptops
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Gaming
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Desktops
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Headphones
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Accessories
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                PC Parts
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
+              }
+              testID="category-item"
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": null,
+                      "fontSize": 12,
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontSize": 13,
+                      "height": 25,
+                      "marginTop": 10,
+                    },
+                    {
+                      "color": null,
+                    },
+                  ]
+                }
+              >
+                Cameras
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            style={
+              {
+                "width": 0,
+              }
+            }
+          />
+        </View>
+      </RCTScrollView>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#efefef",
+          "height": 1,
+          "marginBottom": 20,
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "fontSize": 13,
+          "fontWeight": "500",
+          "marginBottom": 15,
+          "marginLeft": 15,
+        }
+      }
+    >
+      navigation:home:shopByBrands
+    </Text>
+    <View>
+      <RCTScrollView
+        ItemSeparatorComponent={
+          {
+            "$$typeof": Symbol(react.memo),
+            "compare": null,
+            "type": [Function],
+          }
+        }
+        contentContainerStyle={
+          {
+            "paddingHorizontal": 15,
+          }
+        }
+        data={
+          [
+            {
+              "models": [
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Black ",
+                  "id": "1",
+                  "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+                  "name": "iPhone 13 Pro Max",
+                  "quantity": 99,
+                  "space": "128 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Sliver ",
+                  "id": "2",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 13 Pro",
+                  "quantity": 104,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Gray ",
+                  "id": "3",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 13",
+                  "quantity": 105,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Blue ",
+                  "id": "4",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 13 mini",
+                  "quantity": 111,
+                  "space": "500 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Silver ",
+                  "id": "5",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 12 Pro Max",
+                  "quantity": 111,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Black ",
+                  "id": "6",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 12 Pro",
+                  "quantity": 14,
+                  "space": "500 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Blue ",
+                  "id": "7",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 12",
+                  "quantity": 20,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Black ",
+                  "id": "8",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone X",
+                  "quantity": 104,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Silver ",
+                  "id": "9",
+                  "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+                  "name": "iPhone 8",
+                  "quantity": 100,
+                  "space": "500 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Silver ",
+                  "id": "10",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 11 Pro Max",
+                  "quantity": 104,
+                  "space": "500 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Silver ",
+                  "id": "11",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 11 Pro",
+                  "quantity": 14,
+                  "space": "500 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Green ",
+                  "id": "12",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 11",
+                  "quantity": 123,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "yellow",
+                  "id": "13",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone X",
+                  "quantity": 104,
+                  "space": "500 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Blue  ",
+                  "id": "14",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 8 Plus",
+                  "quantity": 104,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Green ",
+                  "id": "15",
+                  "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                  "name": "iPhone 8",
+                  "quantity": 122,
+                  "space": "128 GB",
+                },
+              ],
+              "name": "Apple",
+            },
+            {
+              "models": [
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Blue",
+                  "id": "1",
+                  "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                  "name": "Samsung Galaxy",
+                  "quantity": 87,
+                  "space": "128 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Gray",
+                  "id": "2",
+                  "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                  "name": "Samsung Galaxy 4",
+                  "quantity": 5,
+                  "space": "128 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Silver",
+                  "id": "3",
+                  "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                  "name": "Samsung Note 9",
+                  "quantity": 18,
+                  "space": "256 GB",
+                },
+                {
+                  "availableProducts": "availableProducts",
+                  "color": "Green ",
+                  "id": "4",
+                  "image": "https://m.media-amazon.com/images/I/71RqyKk2eBL._AC_SX679_.jpg",
+                  "name": "Samsung Galaxy",
+                  "quantity": 99,
+                  "space": "500 GB",
+                },
+              ],
+              "name": "Samsung",
+            },
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        stickyHeaderIndices={[]}
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "#0040ff",
+                  "borderRadius": 5,
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+              testID="brand-item"
+            >
+              <Text
+                style={
+                  {
+                    "color": "#FFFFFF",
+                  }
+                }
+              >
+                Apple
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "backgroundColor": "#efefef",
+                  "borderRadius": 5,
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+              testID="brand-item"
+            >
+              <Text
+                style={
+                  {
+                    "color": "#000000",
+                  }
+                }
+              >
+                Samsung
+              </Text>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+    <Text
+      style={
+        {
+          "fontSize": 13,
+          "fontWeight": "500",
+          "marginBottom": 15,
+          "marginLeft": 15,
+          "marginTop": 18,
+        }
+      }
+      testID="shop-by-models"
+    >
+      navigation:home:shopByModels
+    </Text>
+    <View>
+      <RCTScrollView
+        ItemSeparatorComponent={
+          {
+            "$$typeof": Symbol(react.memo),
+            "compare": null,
+            "type": [Function],
+          }
+        }
+        contentContainerStyle={
+          {
+            "paddingHorizontal": 15,
+          }
+        }
+        data={
+          [
+            {
+              "availableProducts": "availableProducts",
+              "color": "Black ",
+              "id": "1",
+              "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+              "name": "iPhone 13 Pro Max",
+              "quantity": 99,
+              "space": "128 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Sliver ",
+              "id": "2",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 13 Pro",
+              "quantity": 104,
+              "space": "256 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Gray ",
+              "id": "3",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 13",
+              "quantity": 105,
+              "space": "256 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Blue ",
+              "id": "4",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 13 mini",
+              "quantity": 111,
+              "space": "500 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Silver ",
+              "id": "5",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 12 Pro Max",
+              "quantity": 111,
+              "space": "256 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Black ",
+              "id": "6",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 12 Pro",
+              "quantity": 14,
+              "space": "500 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Blue ",
+              "id": "7",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 12",
+              "quantity": 20,
+              "space": "256 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Black ",
+              "id": "8",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone X",
+              "quantity": 104,
+              "space": "256 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Silver ",
+              "id": "9",
+              "image": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+              "name": "iPhone 8",
+              "quantity": 100,
+              "space": "500 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Silver ",
+              "id": "10",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 11 Pro Max",
+              "quantity": 104,
+              "space": "500 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Silver ",
+              "id": "11",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 11 Pro",
+              "quantity": 14,
+              "space": "500 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Green ",
+              "id": "12",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 11",
+              "quantity": 123,
+              "space": "256 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "yellow",
+              "id": "13",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone X",
+              "quantity": 104,
+              "space": "500 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Blue  ",
+              "id": "14",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 8 Plus",
+              "quantity": 104,
+              "space": "256 GB",
+            },
+            {
+              "availableProducts": "availableProducts",
+              "color": "Green ",
+              "id": "15",
+              "image": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+              "name": "iPhone 8",
+              "quantity": 122,
+              "space": "128 GB",
+            },
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        stickyHeaderIndices={[]}
+        style={
+          {
+            "marginBottom": 30,
+          }
+        }
+        testID="custom-list"
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 13 Pro Max
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  128 GB
+                   | 
+                  Black 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  99
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 13 Pro
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  256 GB
+                   | 
+                  Sliver 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  104
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 13
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  256 GB
+                   | 
+                  Gray 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  105
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 13 mini
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  500 GB
+                   | 
+                  Blue 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  111
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 12 Pro Max
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  256 GB
+                   | 
+                  Silver 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  111
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 12 Pro
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  500 GB
+                   | 
+                  Black 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  14
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 12
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  256 GB
+                   | 
+                  Blue 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  20
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone X
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  256 GB
+                   | 
+                  Black 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  104
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/f/a/fad9c24a2412696889a07dc6154df1dfa04b4d3fad7a59a20fe6d73ec5b1d542.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 8
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  500 GB
+                   | 
+                  Silver 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  100
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 11 Pro Max
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  500 GB
+                   | 
+                  Silver 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  104
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 11 Pro
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  500 GB
+                   | 
+                  Silver 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  14
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 11
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  256 GB
+                   | 
+                  Green 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  123
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "width": 15,
+                }
+              }
+              testID="list-item-separator"
+            />
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone X
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  500 GB
+                   | 
+                  yellow
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  104
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 8 Plus
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  256 GB
+                   | 
+                  Blue  
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  104
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#e9eff8",
+                    "borderRadius": 10,
+                    "height": 150,
+                    "justifyContent": "center",
+                    "marginBottom": 10,
+                    "marginHorizontal": 4,
+                    "opacity": 1,
+                    "width": 113,
+                  }
+                }
+                testID="model-card"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "overflow": "hidden",
+                      },
+                      {
+                        "height": 45,
+                        "marginBottom": 5,
+                        "width": 45,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    defaultSource={null}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "uri": "https://btech.com/media/catalog/product/0/4/0453660f0d7b94ab676b901bf7a8f79de66624d71bcef81825a124cafc0d1ea5.jpeg",
+                      }
+                    }
+                    style={
+                      {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                    testID="model-image"
+                  />
+                </View>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  iPhone 8
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 10,
+                      "fontWeight": "400",
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  128 GB
+                   | 
+                  Green 
+                </Text>
+                <Text
+                  style={
+                    {
+                      "fontSize": 10,
+                      "marginBottom": 2,
+                    }
+                  }
+                >
+                  availableProducts
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "black",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                    }
+                  }
+                >
+                  122
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</RCTScrollView>
+`;
