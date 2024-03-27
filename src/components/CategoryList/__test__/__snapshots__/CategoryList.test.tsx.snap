@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryList should match snapshot 1`] = `
+[
+  <Text
+    style={
+      {
+        "fontSize": 15,
+        "fontWeight": "500",
+        "marginBottom": 14,
+        "marginTop": 10,
+        "paddingLeft": 15,
+      }
+    }
+  >
+    navigation:home:categories
+  </Text>,
+  <View>
+    <RCTScrollView
+      ItemSeparatorComponent={
+        {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "type": [Function],
+        }
+      }
+      contentContainerStyle={
+        {
+          "paddingHorizontal": 15,
+        }
+      }
+      data={
+        {
+          "categories": [
+            {
+              "brands": [
+                {
+                  "id": 1,
+                  "name": "Brand 1",
+                },
+              ],
+              "id": 1,
+              "name": "Category 1",
+            },
+            {
+              "brands": [
+                {
+                  "id": 2,
+                  "name": "Brand 2",
+                },
+              ],
+              "id": 2,
+              "name": "Category 2",
+            },
+            {
+              "brands": [
+                {
+                  "id": 3,
+                  "name": "Brand 3",
+                },
+              ],
+              "id": 3,
+              "name": "Category 3",
+            },
+          ],
+        }
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View />
+    </RCTScrollView>
+  </View>,
+  <View
+    style={
+      {
+        "backgroundColor": "#efefef",
+        "height": 1,
+        "marginBottom": 20,
+        "width": "100%",
+      }
+    }
+  />,
+]
+`;

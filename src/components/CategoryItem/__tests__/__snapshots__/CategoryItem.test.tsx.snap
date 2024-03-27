@@ -35,6 +35,7 @@ exports[`CategoryItem should match snapshot 1`] = `
       "opacity": 1,
     }
   }
+  testID="category-item"
 >
   <Text
     allowFontScaling={false}

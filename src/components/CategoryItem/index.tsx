@@ -16,7 +16,11 @@ interface CategoryItemProps {
 const CategoryItem: React.FC<CategoryItemProps> = memo(
   ({ item, isSelected, onPress }) => {
     return (
-      <TouchableOpacity style={styles.categoryItemContainer} onPress={onPress}>
+      <TouchableOpacity
+        testID="category-item"
+        style={styles.categoryItemContainer}
+        onPress={onPress}
+      >
         <MaterialIcons
           name={item.image}
           color={isSelected ? Colors.primary : null}
