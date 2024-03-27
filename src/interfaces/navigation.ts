@@ -1,34 +1,10 @@
 import { MaterialBottomTabNavigationProp } from '@react-navigation/material-bottom-tabs';
 import { CompositeNavigationProp } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import type { IImageInfo } from 'react-native-image-zoom-viewer/src/image-viewer.type';
-import { Category } from './category';
 
 export type RootRouter = {
-  LandingScreen: {};
   Tabs: {
     screen: T;
-  };
-  SelectBranch: {};
-  PRODUCT_SCREEN: {
-    id: string;
-  };
-  CATEGORY_SCREEN: {
-    id: string;
-  };
-  BRAND_SCREEN: {
-    id: string;
-    categories: Category[];
-  };
-  SEARCH_SCREEN: {};
-  Login: {};
-
-  ForgotPassword: { email: string };
-
-  Register: {};
-  IMAGES_GALLERY: {
-    images: IImageInfo[];
-    index: number;
   };
 };
 
