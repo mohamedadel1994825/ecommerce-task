@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 import { Text } from "react-native";
 import { CustomList } from "../CustomList";
 import { Separator } from "../ListSeparator";
-// import RenderBrandItem from "./RenderBrandItem";
 import { RenderBrandItem } from "../RenderBrandItem";
 import { styles } from "./styles";
 

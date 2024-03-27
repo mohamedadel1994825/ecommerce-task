@@ -3,11 +3,10 @@ import { Brand, Category } from "@interfaces";
 import React, { memo, useCallback, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { Text, View } from "react-native";
-import { CustomList } from "../CustomList";
-import { Separator } from "../ListSeparator";
-// import RenderBrandItem from "./RenderBrandItem";
 import productsData from "../../store/productsData.json";
 import { CategoryItem } from "../CategoryItem";
+import { CustomList } from "../CustomList";
+import { Separator } from "../ListSeparator";
 import { styles } from "./styles";
 interface BrandListProps {
   selectedCategory: Category;
