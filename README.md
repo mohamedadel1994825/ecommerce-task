@@ -1,7 +1,7 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Demo
-https://github.com/mohamedadel1994825/ecommerce-task/assets/54745774/cadde5ed-bdb1-4727-b83f-4d7c4107087d
+https://github.com/mohamedadel1994825/ecommerce-task/assets/54745774/a79843d3-3f1e-4d9e-b9eb-b391313f6972
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
