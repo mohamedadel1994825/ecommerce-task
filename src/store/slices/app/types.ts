@@ -1,0 +1,20 @@
+export type ThemeType = {
+   name: string;
+   card: string;
+   border: string;
+   notification: string;
+   appColor: string;
+   lightGreen: string;
+   buttonTextColor: string;
+   background: string;
+   inputBackground: string;
+   messageLeftBackground: string;
+   messageRightBackground: string;
+   text: string;
+   textSecondry: string;
+   textPlaceholder: string;
+   purple: string;
+   packageCard: string;
+   unPaidCard: string;
+   notificationCard: string;
+};
