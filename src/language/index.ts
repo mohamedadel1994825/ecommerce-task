@@ -1,7 +1,7 @@
 import { I18nManager } from "react-native";
 
-import memoize from "lodash.memoize";
 import i18n from "i18n-js";
+import memoize from "lodash.memoize";
 
 const translations = {
   // lazy requires (metro bundler does not support symlinks)
@@ -44,5 +44,5 @@ export const setI18nConfig = async (_languageTag) => {
     // set i18n-js config
     i18n.translations = { [languageTag]: translations[languageTag]() };
     i18n.locale = languageTag;
-  } catch (error) {}
+  } catch (error) { }
 };
