@@ -1,21 +1,21 @@
 /* eslint-disable react-native/no-inline-styles */
 import { appColors } from "@common";
+import { useStatusBarLoadingScreen } from "@hooks";
 import React, { memo } from "react";
-import { ActivityIndicator, View, ViewStyle } from "react-native";
+import { View, ViewStyle } from "react-native";
 
-const LoadingComponent = memo(({ style }: { style?: ViewStyle }) => (
-  <View
-    style={[
-      {
-        flex: 1,
-        backgroundColor: appColors.white,
-        alignItems: "center",
-        justifyContent: "center",
-      },
-      style,
-    ]}
-  >
-    <ActivityIndicator animating color={appColors.appColor} size="large" />
-  </View>
-));
-export  {LoadingComponent};
+const LoadingComponent = memo(({ style }: { style?: ViewStyle }) => {
+  useStatusBarLoadingScreen();
+  return (
+    <View
+      style={[
+        {
+          flex: 1,
+          backgroundColor: appColors.appColor,
+        },
+        style,
+      ]}
+    ></View>
+  );
+});
+export { LoadingComponent };

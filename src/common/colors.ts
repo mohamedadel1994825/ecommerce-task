@@ -1,6 +1,7 @@
 export const appColors = {
   transparent: "rgba(0,0,0,0)",
-  appColor: "#00A82D",
+  appColor: "#2F50C1",
+
   appTextColor: "#FFCA08",
   appBackgroundColor: "#f5f5f5",
   cardBorderColor: "#d9d9d9",

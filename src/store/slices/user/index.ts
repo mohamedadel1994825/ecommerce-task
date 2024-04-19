@@ -1,12 +1,9 @@
 
 import { PayloadAction, Slice, createSlice } from '@reduxjs/toolkit';
 import { RootState } from "@types";
-import { LocationType, UserType } from './types';
+import { UserType } from './types';
 export interface UserRootState {
     user: UserType,
-    balance: number,
-    currentLocation: LocationType,
-    trips: number,
 }// import { RootState } from "@types";
 const initialState: UserRootState = {
     user: {
@@ -19,9 +16,6 @@ const initialState: UserRootState = {
         gender: '',
         birthDate: ''
     },
-    currentLocation: { latitude: 0, longitude: 0 },
-    balance: 0,
-    trips: 0
 }
 
 const slice: Slice = createSlice({
@@ -41,15 +35,6 @@ const slice: Slice = createSlice({
             state.user.birthDate = action.payload.birthDate
             // "Mutating" update syntax thanks to Immer, and no `return` needed
         },
-        setBalance: (state: UserRootState, action: PayloadAction<number>) => {
-            state.balance = action.payload
-        },
-        setTrips: (state: UserRootState, action: PayloadAction<number>) => {
-            state.trips = action.payload
-        },
-        setLocation: (state: RootState, action: PayloadAction<{ latitude: number, longitude: number }>) => {
-            state.currentLocation = { latitude: action.payload.latitude, longitude: action.payload.longitude }
-        },
         logout: (state: UserRootState, action: PayloadAction<UserType>) => {
             state.user = action.payload
         },
@@ -57,16 +42,13 @@ const slice: Slice = createSlice({
 })
 
 // Action Creators
-const { setUser, updateUser, setBalance, setTrips, setLocation, logout } = slice.actions;
+const { setUser, updateUser, logout } = slice.actions;
 
 // App Object
 const User = {
     slice,
     setUser,
     updateUser,
-    setBalance,
-    setTrips,
-    setLocation,
     logout
 };
 export const selectUser = (state: RootState) => state?.user;

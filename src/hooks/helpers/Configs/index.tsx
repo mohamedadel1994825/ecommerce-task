@@ -2,9 +2,7 @@ import { getCurrentTheme, getLocalization, setNewTheme } from "@common";
 import { App, useAppDispatch } from "@store";
 import { AppDispatch } from "@types";
 import { useEffect, useState } from "react";
-import { useColorScheme } from "react-native";
 import SplashScreen from "react-native-splash-screen";
-import { useDeviceOS } from "../Checks";
 
 const setAppLang = (dispatch: AppDispatch, languageTag: string) => {
   dispatch(App.setLanguage(languageTag));
@@ -19,22 +17,12 @@ const setAppLang = (dispatch: AppDispatch, languageTag: string) => {
 const checkIsDarkTheme = (themeName: string) => themeName === "dark";
 
 const useLoadConfigs = () => {
-  const dispatch = useAppDispatch();
-  const { isIos } = useDeviceOS();
-  const colorScheme = useColorScheme();
-  const [loading, setLoading] = useState(true);
-
+  const [isLoading, setIsLoading] = useState(true);
   const onMount = async () => {
-    if (isIos) {
-      await SplashScreen.hide();
-      setTimeout(async () => {
-        await setLoading(false);
-      }, 1);
-      // await checkNotificationPermission();
-    } else {
-      SplashScreen.hide();
-      setLoading(false);
-    }
+    SplashScreen.hide();
+    setTimeout(async () => {
+      await setIsLoading(false);
+    }, 1500);
   };
   const loadData = async () => {
     await onMount();
@@ -57,7 +45,7 @@ const useLoadConfigs = () => {
     // setLoading(false);
   };
   return {
-    loading,
+    isLoading,
   };
 };
 
@@ -67,7 +55,7 @@ const useLocalization = () => {
     const lang = getLocalization();
     if (lang) {
       setAppLang(dispatch, lang);
-    } 
+    }
     return () => {};
   }, []);
 };

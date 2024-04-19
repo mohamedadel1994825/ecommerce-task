@@ -10,9 +10,14 @@ const useTheme = (theme: ThemeType) => {
     isDarkTheme,
   };
 };
-export const useStatusBar = () => {
+const useStatusBar = () => {
   useEffect(() => {
     StatusBar.setBarStyle("light-content", true);
+  }, []);
+}
+const useStatusBarLoadingScreen = () => {
+  useEffect(() => {
+    StatusBar.setHidden(true)
   }, []);
 }
 export const useOnfocusedStatusBar = (theme: any) => {
@@ -55,5 +60,5 @@ export const useOnfocusedStatusBar = (theme: any) => {
 
 const deviceTheme = Appearance.getColorScheme()
 
-export { deviceTheme, useTheme };
+export { deviceTheme, useStatusBar, useStatusBarLoadingScreen, useTheme };
 

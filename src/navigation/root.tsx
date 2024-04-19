@@ -1,4 +1,3 @@
-import { createDrawerNavigator } from "@react-navigation/drawer";
 import {
   NavigationContainer,
   NavigationContainerRef,
@@ -9,6 +8,9 @@ import { enableFreeze, enableScreens } from "react-native-screens";
 
 import { useLoadConfigs } from "@hooks";
 
+import { LoadingComponent } from "@components";
+import { LoginStackProps } from "@interfaces";
+import { LoginScreen } from "@screens";
 import {
   AppRootState,
   UserRootState,
@@ -22,15 +24,20 @@ import TabsRouter from "./routers/tabs.router";
 import { ScreenEnum } from "./screenEnums";
 enableScreens(true);
 enableFreeze(false);
-const Drawer = createDrawerNavigator();
 
 const Stack = createNativeStackNavigator();
-const AuthStack = () => (
+const AuthStack = ({ isLoading }: LoginStackProps) => (
   <Stack.Navigator
     screenOptions={{ headerShown: false, gestureEnabled: false }}
-    initialRouteName={ScreenEnum.Login} // Use ScreenEnum values here
+    initialRouteName={ScreenEnum.Loading} // Use ScreenEnum values here
   >
-    <Stack.Screen name={ScreenEnum.Login} component={Login} />
+    <>
+      {isLoading ? (
+        <Stack.Screen name={ScreenEnum.Loading} component={LoadingComponent} />
+      ) : (
+        <Stack.Screen name={ScreenEnum.Login} component={LoginScreen} />
+      )}
+    </>
   </Stack.Navigator>
 );
 
@@ -56,9 +63,9 @@ const RootNavigator = (props: any) => {
   const {
     user: { userId },
   } = userSelector;
-  const { theme, initialSteps } = appSelector;
+  const { theme } = appSelector;
   // console.log('initialSteps', initialSteps)
-  const { loading } = useLoadConfigs();
+  const { isLoading } = useLoadConfigs();
   useEffect(() => {
     setNavigationRef(navigationRef.current);
   }, []);
@@ -79,7 +86,8 @@ const RootNavigator = (props: any) => {
       }}
       ref={setNavigationRef}
     >
-      <MainStack />
+      <AuthStack {...{ isLoading }} />
+      {/* <MainStack /> */}
     </NavigationContainer>
   );
 };
