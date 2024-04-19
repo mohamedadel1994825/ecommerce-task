@@ -2,6 +2,7 @@ export const appColors = {
   transparent: "rgba(0,0,0,0)",
   appColor: "#2F50C1",
   placeholderInput: "#A7A3B3",
+  searchbarBackground:"#F4F2F8",
   appTextColor: "#FFCA08",
   graySubtitle: "#757281",
   appBackgroundColor: "#f5f5f5",

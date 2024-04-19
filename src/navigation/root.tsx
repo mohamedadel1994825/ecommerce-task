@@ -43,6 +43,7 @@ const AuthStack = ({ isLoading }: LoginStackProps) => (
 
 const MainStack = () => (
   <Stack.Navigator
+    
     initialRouteName={ScreenEnum.Home} // Use ScreenEnum values here
     screenOptions={() => ({
       gestureEnabled: false,

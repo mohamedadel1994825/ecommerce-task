@@ -10,6 +10,8 @@ export default React.memo(() => {
   return (
     <>
       <BottomTabs.Navigator
+        keyboardHidesNavigationBar={true}
+        
         initialRouteName="Home"
         sceneAnimationEnabled
         activeColor={appColors.appColor}
