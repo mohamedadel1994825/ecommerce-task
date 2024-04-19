@@ -86,8 +86,7 @@ const RootNavigator = (props: any) => {
       }}
       ref={setNavigationRef}
     >
-      <AuthStack {...{ isLoading }} />
-      {/* <MainStack /> */}
+      <>{!userId ? <AuthStack {...{ isLoading }} /> : <MainStack />}</>
     </NavigationContainer>
   );
 };

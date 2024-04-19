@@ -14,7 +14,8 @@ const initialState: UserRootState = {
         contact: '',
         statusCode: '',
         gender: '',
-        birthDate: ''
+        birthDate: '',
+        image: ''
     },
 }
 

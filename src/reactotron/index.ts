@@ -61,7 +61,7 @@ const reactotron = Reactotron // AsyncStorage would either come from `react-nati
     // onDisconnect: () => {
     //   queryClientManager.unsubscribe();
     // },
-    // host: '192.168.1.2'
+    host: '192.168.1.6'
     // host: '192.168.43.33'
   })
   .use(reactotronRedux())

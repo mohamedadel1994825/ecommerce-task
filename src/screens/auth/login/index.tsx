@@ -1,6 +1,6 @@
 import { images } from "@assets";
 import { CustomImage, UserDataForm } from "@components";
-import { useOnfocusedStatusBar, useUserDataForm } from "@hooks";
+import { useOnfocusedLoginStatusBar } from "@hooks";
 import React from "react";
 import { View } from "react-native";
 import { Button } from "react-native-elements";
@@ -10,7 +10,7 @@ import { styles } from "./styles";
 const LoginScreen: React.FC = () => {
   const { ref: modalRef, open: openModal, close: closeModal } = useModalize();
 
-  useOnfocusedStatusBar();
+  useOnfocusedLoginStatusBar();
 
   return (
     <View style={styles.container}>

@@ -23,7 +23,8 @@ export default () => {
       <HomeStack.Screen
         name="Home"
         component={HomeScreen}
-        options={generateScreenOptions}
+        options={{ headerShown: false }}
+        // options={generateScreenOptions}
       />
     </HomeStack.Navigator>
   );

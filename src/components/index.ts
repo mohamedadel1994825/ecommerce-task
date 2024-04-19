@@ -3,4 +3,5 @@ export * from './CustomModal'
 export * from './LoadingComponent'
 export * from './ModalHeader'
 export * from './UserDataForm'
+export * from './CustomHeader'
 

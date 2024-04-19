@@ -23,17 +23,29 @@ const useStatusBarLoadingScreen = () => {
     StatusBar.setHidden(true)
   }, []);
 }
-export const useOnfocusedStatusBar = () => {
+const useOnfocusedLoginStatusBar = () => {
   useFocusEffect(() => {
     StatusBar.setHidden(false)
     StatusBar.setBarStyle("light-content", true);
     StatusBar.setBackgroundColor(appColors.appColor);
+  })
+    ;
+}
 
+const useOnfocusedHomeStatusBar = () => {
+  useFocusEffect(() => {
+    StatusBar.setHidden(false)
+    StatusBar.setBarStyle("dark-content", true);
+    StatusBar.setBackgroundColor(appColors.white)
   })
     ;
 }
 
 const deviceTheme = Appearance.getColorScheme()
 
-export { deviceTheme, useStatusBar, useStatusBarLoadingScreen, useTheme };
+export {
+  deviceTheme, useOnfocusedHomeStatusBar, useOnfocusedLoginStatusBar,
+  useStatusBar,
+  useStatusBarLoadingScreen, useTheme
+};
 

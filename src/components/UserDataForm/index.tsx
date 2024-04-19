@@ -1,8 +1,15 @@
-import { Fonts } from "@assets";
+import { Fonts, images } from "@assets";
 import { appColors, calcFont, calcHeight, calcWidth } from "@common";
 import { CustomModal, ModalHeader } from "@components";
 import { useUserDataForm } from "@hooks";
-import { AppRootState, selectApp, useAppSelector } from "@store";
+import {
+  AppRootState,
+  selectApp,
+  useAppDispatch,
+  useAppSelector,
+  User,
+} from "@store";
+import { AppDispatch } from "@types";
 import { screenHeight } from "@utils";
 import React, { forwardRef } from "react";
 import { Controller } from "react-hook-form";
@@ -15,11 +22,27 @@ export const UserDataForm = forwardRef((props, ref) => {
   const { onPressBack } = props;
   const { watch, handleSubmit, errors, isValid, control, setValue, getValues } =
     useUserDataForm();
+  const dispatch: AppDispatch = useAppDispatch();
   const appSelector: AppRootState = useAppSelector(selectApp);
   const url = watch("url");
   const email = watch("email");
   const password = watch("password");
+  console.log("url", url);
+
   const onSubmit = () => {
+    dispatch(
+      User.setUser({
+        userId: `${email}`,
+        userName: "Ibrahim",
+        userSurname: "Shaker",
+        email,
+        contact: "",
+        statusCode: "",
+        gender: "",
+        birthDate: "",
+        image: images.user,
+      })
+    );
     console.log("submitted");
   };
   return (

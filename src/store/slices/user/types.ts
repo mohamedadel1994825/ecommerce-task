@@ -7,6 +7,7 @@ export type UserType = {
     statusCode: string,
     gender: string,
     birthDate: string
+    image:string
 }
 export type LocationType = {
     latitude: number,

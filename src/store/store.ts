@@ -36,7 +36,7 @@ const persistConfig = {
     storage: reduxStorage,
     // whitelist: ["ride", "vehicles"],
     // balcklist: ["user", "app","location"],
-    whitelist: ["user", "app", "location"],
+    balcklist: ["user", "app"],
 }
 const composeEnhancers = reactotron.createEnhancer!(); // Adjust this as per your Reactotron configuration
 
