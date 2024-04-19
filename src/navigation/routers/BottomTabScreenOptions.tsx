@@ -1,35 +1,29 @@
 import { appColors } from "@common";
-import { translate } from "@language";
 import * as React from "react";
 import { Text } from "react-native";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
+import Ionicons from "react-native-vector-icons/Ionicons";
+
 import CommunityIcon from "react-native-vector-icons/MaterialCommunityIcons";
 import { styles } from "./styles";
 export const BottomTabScreenOptions = () => {
   return {
     home: {
       tabBarColor: appColors.appColor,
-      tabBarLabel: (
-        <Text style={styles.tabBarLabel}>
-          {translate("navigation:home:homeHeaderTitle")}
-        </Text>
-      ),
+      tabBarLabel: <Text style={styles.tabBarLabel}>Shipments</Text>,
       tabBarIcon: ({ color, focused }) => (
-        <CommunityIcon
-          name="home"
+        <FontAwesome
+          name="cubes"
           size={24}
           color={focused ? appColors.appColor : color}
         />
       ),
     },
     categories: {
-      tabBarLabel: (
-        <Text style={styles.tabBarLabel}>
-          {translate("navigation:categories:categoriesHeaderTitle")}
-        </Text>
-      ),
+      tabBarLabel: <Text style={styles.tabBarLabel}>scan</Text>,
       tabBarIcon: ({ color, focused }) => (
-        <CommunityIcon
-          name="magnify"
+        <Ionicons
+          name="scan"
           size={24}
           color={focused ? appColors.appColor : color}
         />
@@ -40,28 +34,20 @@ export const BottomTabScreenOptions = () => {
       // tabBarIcon: middleAddIcon,
     },
     cart: {
-      tabBarLabel: (
-        <Text style={styles.tabBarLabel}>
-          {translate("navigation:cart:cartHeaderTitle")}
-        </Text>
-      ),
+      tabBarLabel: <Text style={styles.tabBarLabel}>wallet</Text>,
       tabBarIcon: ({ color, focused }) => (
         <CommunityIcon
-          name="cube"
+          name="wallet"
           size={24}
           color={focused ? appColors.appColor : color}
         />
       ),
     },
     account: {
-      tabBarLabel: (
-        <Text style={styles.tabBarLabel}>
-          {translate("navigation:account:accountHeaderTitle")}
-        </Text>
-      ),
+      tabBarLabel: <Text style={styles.tabBarLabel}>profile</Text>,
       tabBarIcon: ({ color, focused }) => (
         <CommunityIcon
-          name="menu"
+          name="account"
           size={24}
           color={focused ? appColors.appColor : color}
         />
