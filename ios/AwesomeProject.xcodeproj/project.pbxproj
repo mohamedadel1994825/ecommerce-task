@@ -14,6 +14,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AwesomeProject-AwesomeProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeProject-AwesomeProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FCDEDDA1CC7042BA9E4E7932 /* Arial Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B57B2C7E19B4375A67C0D00 /* Arial Bold.ttf */; };
+		57D58C519234479BA0D164F8 /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46ACA13CA57E460D80962785 /* Arial.ttf */; };
+		45F51FE09C3342999BD30C7B /* CenturyGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9A1F1EEFF5432980F101E9 /* CenturyGothic-Bold.ttf */; };
+		31810750BDD14B578A60218B /* CenturyGothic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D092B00E60814E1CA460843C /* CenturyGothic-Italic.ttf */; };
+		C004C413AFBA42ABBC39F687 /* TheSansArabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFB5C484A19F44C9AA3E59A1 /* TheSansArabic-Bold.ttf */; };
+		0E70B86AA8AC4F148F723DD3 /* TheSansArabic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F66FA26A2B174B1F86EFF6E7 /* TheSansArabic-Light.ttf */; };
+		41688ECC764947C6B5E02FEC /* TheSansArabic-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219A3E856A6340F198D9DA3C /* TheSansArabic-SemiBold.ttf */; };
+		742FCF2A828848C9B186A429 /* Century-Regular.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2225D95CB5664A968F307A7B /* Century-Regular.TTF */; };
+		5127540E570B49D9BB0ED53E /* index.ts in Resources */ = {isa = PBXBuildFile; fileRef = B51678838F664998BFDF92B0 /* index.ts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject-AwesomeProjectTests/Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0B57B2C7E19B4375A67C0D00 /* Arial Bold.ttf */ = {isa = PBXFileReference; name = "Arial Bold.ttf"; path = "../src/assets/fonts/Arial Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46ACA13CA57E460D80962785 /* Arial.ttf */ = {isa = PBXFileReference; name = "Arial.ttf"; path = "../src/assets/fonts/Arial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E9A1F1EEFF5432980F101E9 /* CenturyGothic-Bold.ttf */ = {isa = PBXFileReference; name = "CenturyGothic-Bold.ttf"; path = "../src/assets/fonts/CenturyGothic-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D092B00E60814E1CA460843C /* CenturyGothic-Italic.ttf */ = {isa = PBXFileReference; name = "CenturyGothic-Italic.ttf"; path = "../src/assets/fonts/CenturyGothic-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DFB5C484A19F44C9AA3E59A1 /* TheSansArabic-Bold.ttf */ = {isa = PBXFileReference; name = "TheSansArabic-Bold.ttf"; path = "../src/assets/fonts/TheSansArabic-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F66FA26A2B174B1F86EFF6E7 /* TheSansArabic-Light.ttf */ = {isa = PBXFileReference; name = "TheSansArabic-Light.ttf"; path = "../src/assets/fonts/TheSansArabic-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		219A3E856A6340F198D9DA3C /* TheSansArabic-SemiBold.ttf */ = {isa = PBXFileReference; name = "TheSansArabic-SemiBold.ttf"; path = "../src/assets/fonts/TheSansArabic-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2225D95CB5664A968F307A7B /* Century-Regular.TTF */ = {isa = PBXFileReference; name = "Century-Regular.TTF"; path = "../src/assets/fonts/Century-Regular.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B51678838F664998BFDF92B0 /* index.ts */ = {isa = PBXFileReference; name = "index.ts"; path = "../src/assets/fonts/index.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B4085D72B6AF44EE9A23686D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +166,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		B4085D72B6AF44EE9A23686D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0B57B2C7E19B4375A67C0D00 /* Arial Bold.ttf */,
+				46ACA13CA57E460D80962785 /* Arial.ttf */,
+				1E9A1F1EEFF5432980F101E9 /* CenturyGothic-Bold.ttf */,
+				D092B00E60814E1CA460843C /* CenturyGothic-Italic.ttf */,
+				DFB5C484A19F44C9AA3E59A1 /* TheSansArabic-Bold.ttf */,
+				F66FA26A2B174B1F86EFF6E7 /* TheSansArabic-Light.ttf */,
+				219A3E856A6340F198D9DA3C /* TheSansArabic-SemiBold.ttf */,
+				2225D95CB5664A968F307A7B /* Century-Regular.TTF */,
+				B51678838F664998BFDF92B0 /* index.ts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +280,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FCDEDDA1CC7042BA9E4E7932 /* Arial Bold.ttf in Resources */,
+				57D58C519234479BA0D164F8 /* Arial.ttf in Resources */,
+				45F51FE09C3342999BD30C7B /* CenturyGothic-Bold.ttf in Resources */,
+				31810750BDD14B578A60218B /* CenturyGothic-Italic.ttf in Resources */,
+				C004C413AFBA42ABBC39F687 /* TheSansArabic-Bold.ttf in Resources */,
+				0E70B86AA8AC4F148F723DD3 /* TheSansArabic-Light.ttf in Resources */,
+				41688ECC764947C6B5E02FEC /* TheSansArabic-SemiBold.ttf in Resources */,
+				742FCF2A828848C9B186A429 /* Century-Regular.TTF in Resources */,
+				5127540E570B49D9BB0ED53E /* index.ts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

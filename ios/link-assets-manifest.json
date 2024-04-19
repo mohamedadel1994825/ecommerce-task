@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Arial Bold.ttf",
+      "sha1": "f88138005909789f95c5456513e5be399f401182"
+    },
+    {
+      "path": "src/assets/fonts/Arial.ttf",
+      "sha1": "ed3e64b6fbd7c83489b4a2e1b3d653968359a497"
+    },
+    {
+      "path": "src/assets/fonts/Century-Regular.TTF",
+      "sha1": "035669a8e8a5b486c3300eb9ea7a6672bb7ac331"
+    },
+    {
+      "path": "src/assets/fonts/CenturyGothic-Bold.ttf",
+      "sha1": "194388a12999c4d643ab58aeabec0a49535ebeeb"
+    },
+    {
+      "path": "src/assets/fonts/CenturyGothic-Italic.ttf",
+      "sha1": "967d66fc97165155fc763a043e9c8cae6edc6d75"
+    },
+    {
+      "path": "src/assets/fonts/TheSansArabic-Bold.ttf",
+      "sha1": "59f99409e747dc901d2c5403de4821db55f105f9"
+    },
+    {
+      "path": "src/assets/fonts/TheSansArabic-Light.ttf",
+      "sha1": "c8abcf35552e4ebc5fefc27ea27c0ed91657de28"
+    },
+    {
+      "path": "src/assets/fonts/TheSansArabic-SemiBold.ttf",
+      "sha1": "5b263a4d31235e85e146bc6c643a4208138ebbf0"
+    },
+    {
+      "path": "src/assets/fonts/index.ts",
+      "sha1": "74519b145f14696dd63e998164518826f1a484de"
+    }
+  ]
+}
