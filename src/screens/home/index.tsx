@@ -1,6 +1,6 @@
 import { images } from "@assets";
 import { appColors, calcHeight } from "@common";
-import { CustomHeader } from "@components";
+import { CustomHeader, TwoButtonsRow } from "@components";
 import { useOnfocusedHomeStatusBar } from "@hooks";
 import { selectUser, useAppSelector, UserRootState } from "@store";
 import React from "react";
@@ -33,7 +33,7 @@ const HomeScreen: React.FC = () => {
         notificationIcon={"notifications-outline"}
         userName={userName + " " + userSurname}
       />
-      <View style={{ marginTop: calcHeight(20) }}>
+      <View style={{ marginTop: calcHeight(12) }}>
         <Searchbar
           inputMode="search"
           inputStyle={searchbarInputStyle}
@@ -44,6 +44,7 @@ const HomeScreen: React.FC = () => {
           iconColor={searchQuery ? appColors.appColor : appColors.black}
         />
       </View>
+      <TwoButtonsRow />
     </ScrollView>
   );
 };
