@@ -1,4 +1,5 @@
-import { appColors, calcHeight, calcWidth } from "@common";
+import { Fonts } from "@assets";
+import { appColors, calcFont, calcHeight, calcWidth } from "@common";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
@@ -29,17 +30,20 @@ export const styles = StyleSheet.create({
     button: {
         backgroundColor: appColors.white,
         width: calcWidth(345),
-        height: calcHeight(56),
+        height: calcHeight(50),
         borderRadius: calcHeight(10),
     },
     buttonCont: {
-
     },
 
     buttonTitle: {
         color: appColors.appColor,
         borderRadius: 10,
-
-        // fontSize:
-    }
+        fontSize: calcFont(17),
+        fontFamily: Fonts?.appColorBold
+    },
+    handleStyle: {
+        backgroundColor: appColors.grayDark
+    },
+    modalOverlay: { backgroundColor: 'rgba(0, 0, 0, 0.1)' }
 });

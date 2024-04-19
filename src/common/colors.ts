@@ -1,8 +1,9 @@
 export const appColors = {
   transparent: "rgba(0,0,0,0)",
   appColor: "#2F50C1",
-
+  placeholderInput: "#A7A3B3",
   appTextColor: "#FFCA08",
+  graySubtitle: "#757281",
   appBackgroundColor: "#f5f5f5",
   cardBorderColor: "#d9d9d9",
   textColor: "#fff",
@@ -11,7 +12,7 @@ export const appColors = {
   slateGrey: "#333E43",
   Black: "#000",
   charcoalGrey: "rgba(60,60,67, 0.6)",
-  appButton: "rgb(55,125,255)",
+  appButtonDisabled: "#F4F2F8",
   appBlue: "rgb(55,125,255)",
   appPink: "#F74B73",
   appRed: "rgb(252,62,48)",
