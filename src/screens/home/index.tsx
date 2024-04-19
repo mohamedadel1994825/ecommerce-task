@@ -1,15 +1,17 @@
-import { images } from "@assets";
-import { appColors, calcHeight } from "@common";
-import { CustomHeader, TwoButtonsRow } from "@components";
+import { Fonts, images } from "@assets";
+import { appColors, appStyles, calcFont, calcHeight, calcWidth } from "@common";
+import { CustomHeader, Row, TwoButtonsRow } from "@components";
 import { useOnfocusedHomeStatusBar } from "@hooks";
 import { selectUser, useAppSelector, UserRootState } from "@store";
-import React from "react";
-import { ScrollView, View } from "react-native";
+import React, { useState } from "react";
+import { ScrollView, Text, View } from "react-native";
+import { CheckBox } from "react-native-elements";
 import { Searchbar } from "react-native-paper";
 import { styles } from "./styles";
 
 const HomeScreen: React.FC = () => {
   useOnfocusedHomeStatusBar();
+  const [checkAll, setCheckAll] = useState(false);
   const userSelector: UserRootState = useAppSelector(selectUser);
   const { image, userName, userSurname } = userSelector?.user;
   const [searchQuery, setSearchQuery] = React.useState("");
@@ -45,6 +47,43 @@ const HomeScreen: React.FC = () => {
         />
       </View>
       <TwoButtonsRow />
+      <Row
+        style={{
+          ...appStyles.centerItems,
+          justifyContent: "space-between",
+        }}
+      >
+        <Text
+          style={{
+            fontSize: calcFont(20),
+            color: appColors.black,
+            fontFamily: Fonts?.appColorBold,
+          }}
+        >
+          Shipments
+        </Text>
+        <View style={{ width: calcWidth(95) }}>
+          <CheckBox
+            containerStyle={{
+              width: calcWidth(90),
+              backgroundColor: appColors.transparent,
+              borderWidth: 0,
+              alignItems: "flex-end",
+            }}
+            titleProps={{
+              style: {
+                fontSize: calcFont(17),
+                color: appColors.appColor,
+                fontFamily: Fonts?.CenturyRegular,
+                marginLeft: 5,
+              },
+            }}
+            title="Mark All"
+            checked={checkAll}
+            onPress={() => setCheckAll(!checkAll)}
+          />
+        </View>
+      </Row>
     </ScrollView>
   );
 };

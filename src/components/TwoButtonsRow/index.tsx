@@ -6,17 +6,13 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import Icon from "react-native-vector-icons/Ionicons";
 import { styles } from "./styles";
 interface TwoButtonsRowProps {
-  onPressButton1: () => void;
-  onPressButton2: () => void;
-  disabledButton1?: boolean;
-  disabledButton2?: boolean;
+  onPressButton1?: () => void;
+  onPressButton2?: () => void;
 }
 
 const TwoButtonsRow: React.FC<TwoButtonsRowProps> = ({
   onPressButton1,
   onPressButton2,
-  disabledButton1 = false,
-  disabledButton2 = false,
 }) => {
   return (
     <View style={styles.container}>
