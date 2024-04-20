@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     },
     button: {
         width: calcFont(175),
-        backgroundColor: appColors.filterBtnBackground,
+        backgroundColor: appColors.gray,
         borderRadius: calcHeight(10),
         height: calcHeight(45)
     },

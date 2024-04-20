@@ -27,7 +27,7 @@ const CustomHeader: React.FC<CustomHeaderProps> = ({
         <CustomImage source={centerImageSource} style={styles.centerImage} />
         <TouchableOpacity
           style={{
-            backgroundColor: appColors.grayDivider,
+            backgroundColor: appColors.gray,
             padding: 5,
             borderRadius: 25,
           }}

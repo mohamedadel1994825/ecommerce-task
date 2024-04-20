@@ -1,0 +1,92 @@
+[
+  {
+    "origin": "Cairo",
+    "destination": "Alexandria",
+    "originStreet": "Nile Street",
+    "destinationStreet": "Corniche Street",
+    "awb": "987654321",
+    "tripId": "T456",
+    "status": "Delivered"
+  },
+  {
+    "origin": "Giza",
+    "destination": "Luxor",
+    "originStreet": "Pyramids Street",
+    "destinationStreet": "Nile Street",
+    "awb": "135792468",
+    "tripId": "T012",
+    "status": "Delivered"
+  },
+  {
+    "origin": "Alexandria",
+    "destination": "Aswan",
+    "originStreet": "Corniche Street",
+    "destinationStreet": "Nile Street",
+    "awb": "202020202",
+    "tripId": "T678",
+    "status": "Delivered"
+  },
+  {
+    "origin": "Asyut",
+    "destination": "Port Said",
+    "originStreet": "Nile Street",
+    "destinationStreet": "Canal Street",
+    "awb": "404040404",
+    "tripId": "T234",
+    "status": "Delivered"
+  },
+  {
+    "origin": "Hurghada",
+    "destination": "Sharm El Sheikh",
+    "originStreet": "Red Sea Street",
+    "destinationStreet": "Sinai Street",
+    "awb": "606060606",
+    "tripId": "T890",
+    "status": "Delivered"
+  },
+  {
+    "origin": "Luxor",
+    "destination": "Cairo",
+    "originStreet": "Nile Street",
+    "destinationStreet": "Pyramids Street",
+    "awb": "123456789",
+    "tripId": "T123",
+    "status": "RECEIVED"
+  },
+  {
+    "origin": "Suez",
+    "destination": "El Mahalla El Kubra",
+    "originStreet": "Canal Street",
+    "destinationStreet": "Nile Street",
+    "awb": "246813579",
+    "tripId": "T789",
+    "status": "ERROR"
+  },
+  {
+    "origin": "Minya",
+    "destination": "Sohag",
+    "originStreet": "Nile Street",
+    "destinationStreet": "Nile Street",
+    "awb": "101010101",
+    "tripId": "T345",
+    "status": "CANCELED"
+  },
+  {
+    "origin": "Beni Suef",
+    "destination": "Tanta",
+    "originStreet": "Nile Street",
+    "destinationStreet": "Nile Street",
+    "awb": "303030303",
+    "tripId": "T901",
+    "status": "ON HOLD"
+  },
+  {
+    "origin": "Faiyum",
+    "destination": "Kafr El Sheikh",
+    "originStreet": "Nile Street",
+    "destinationStreet": "Nile Street",
+    "awb": "505050505",
+    "tripId": "T567",
+    "status": "RECEIVED"
+  }
+]
