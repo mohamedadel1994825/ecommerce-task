@@ -4,7 +4,11 @@ import { RootState } from "@types";
 import { UserType } from './types';
 export interface UserRootState {
     user: UserType,
-}// import { RootState } from "@types";
+    filteredStatuses: {
+        status: string;
+    }[];
+}
+// import { RootState } from "@types";
 const initialState: UserRootState = {
     user: {
         userId: '',
@@ -17,6 +21,8 @@ const initialState: UserRootState = {
         birthDate: '',
         image: ''
     },
+    FilteredStatuses: []
+
 }
 
 const slice: Slice = createSlice({
@@ -36,6 +42,9 @@ const slice: Slice = createSlice({
             state.user.birthDate = action.payload.birthDate
             // "Mutating" update syntax thanks to Immer, and no `return` needed
         },
+        setFilteredStatuses: (state: UserRootState, action: PayloadAction) => {
+            state.filteredStatuses = action.payload
+        },
         logout: (state: UserRootState, action: PayloadAction<UserType>) => {
             state.user = action.payload
         },
@@ -43,13 +52,14 @@ const slice: Slice = createSlice({
 })
 
 // Action Creators
-const { setUser, updateUser, logout } = slice.actions;
+const { setUser, updateUser, setFilteredStatuses, logout } = slice.actions;
 
 // App Object
 const User = {
     slice,
     setUser,
     updateUser,
+    setFilteredStatuses,
     logout
 };
 export const selectUser = (state: RootState) => state?.user;

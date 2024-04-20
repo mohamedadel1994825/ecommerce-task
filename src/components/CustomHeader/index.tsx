@@ -43,7 +43,7 @@ const CustomHeader: React.FC<CustomHeaderProps> = ({
       <View>
         <Text
           style={{
-            color: appColors.gray,
+            color: appColors.graySubtitle,
             fontSize: calcFont(17),
             fontFamily: Fonts?.CenturyRegular,
           }}

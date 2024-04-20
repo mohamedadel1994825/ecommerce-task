@@ -12,9 +12,20 @@ interface ShipmentListProps {
     originStreet: string;
     destinationStreet: string;
   }[];
+  filteredStatuses: {
+    status: string;
+  }[];
 }
 
-const ShipmentList: React.FC<ShipmentListProps> = ({ shipments }) => {
+const ShipmentList: React.FC<ShipmentListProps> = ({
+  shipments,
+  filteredStatuses,
+}) => {
+  // Filter shipments based on the selected statuses
+  const filteredShipments = shipments?.filter((shipment) =>
+    filteredStatuses?.includes(shipment.status)
+  );
+  console.log("filteredStatuses", filteredStatuses);
   const renderItem = ({ item }: { item: (typeof shipments)[0] }) => {
     return (
       <ShipmentCard
@@ -28,10 +39,10 @@ const ShipmentList: React.FC<ShipmentListProps> = ({ shipments }) => {
       />
     );
   };
-
   return (
     <CustomList
-      data={shipments}
+      extraData={filteredStatuses?.length}
+      data={filteredShipments.length ? filteredShipments : shipments}
       renderItem={renderItem}
       keyExtractor={(item, index) => index.toString()}
     />

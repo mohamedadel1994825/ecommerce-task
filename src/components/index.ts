@@ -9,5 +9,9 @@ export * from './ShipmentList'
 export * from './ShipmentsHeader'
 export * from './TwoButtonsRow'
 export * from './UserDataForm'
+export * from './FilterModal'
+export * from './FilterHeader'
+
+
 
 
